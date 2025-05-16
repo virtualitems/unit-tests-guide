@@ -6,7 +6,7 @@
 - ¿Debe tener funcionalidad de paginación?
     - ¿Cuántos datos deben mostrarse por página?
 - ¿Debe tener funcionalidad de filtro?
-    - ¿A qué campos se les debe aplicar el filtro?
+    - ¿A qué datos se les debe aplicar el filtro?
 - ¿Debe tener funcionalidad de ordenamiento?
-    - ¿A qué campos se les debe aplicar el ordenamiento?
-    - ¿En qué orden deben mostrarse los datos por defecto?
+    - ¿A qué datos se les debe aplicar el ordenamiento?
+    - ¿En qué orden deben ubicarse los datos?
