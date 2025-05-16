@@ -9,6 +9,10 @@
 
 ## Outputs
 
+- ¿Qué codificación debe tener la respuesta?
+    - ¿El header Content-Length debe ser incluido en la respuesta?
+    - ¿El header Transfer-Encoding debe ser incluido en la respuesta?
+    - ¿Qué valor debe tener el header Content-Type?
 - ¿Debe tener funcionalidad de paginación?
     - ¿Cuántos datos deben mostrarse por página?
 - ¿Debe tener funcionalidad de filtro?
