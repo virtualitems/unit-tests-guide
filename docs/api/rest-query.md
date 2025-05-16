@@ -4,11 +4,17 @@
 
 ## Inputs
 
-- ¿Qué datos deben recibirse?
+- ¿Qué datos deben recibirse en la petición?
+    - ¿Debe recibirse un token de autenticación?
+    - ¿Debe recibirse un token CSRF?
 - ¿En qué formato deben recibirse los datos de la petición?
 
 ## Outputs
 
+- ¿Qué headers de CORS deben incluirse?
+    - ¿Qué métodos HTTP deben permitirse?
+    - ¿Qué cabeceras deben permitirse?
+    - ¿Qué orígenes deben permitirse?
 - ¿Qué codificación debe tener la respuesta?
     - ¿El header Content-Length debe ser incluido en la respuesta?
     - ¿El header Transfer-Encoding debe ser incluido en la respuesta?

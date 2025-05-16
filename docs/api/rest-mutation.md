@@ -4,16 +4,24 @@
 
 ## Inputs
 
+- ¿Qué método HTTP debe utilizarse en la petición?
 - ¿Qué datos deben recibirse en la petición?
+    - ¿Debe recibirse un token de autenticación?
+    - ¿Debe recibirse un token CSRF?
 - ¿En qué formato deben recibirse los datos de la petición?
     - ¿Qué estructura deben tener los datos de la petición?
 
 ## Outputs
 
+- ¿Qué headers de CORS deben incluirse?
+    - ¿Qué métodos HTTP deben permitirse?
+    - ¿Qué cabeceras deben permitirse?
+    - ¿Qué orígenes deben permitirse?
 - ¿Qué datos deben devolverse en la respuesta?
 - ¿En qué formato deben devolverse los datos de la respuesta?
     - ¿Qué estructura deben tener los datos de la respuesta?
-- ¿A qué ruta debe redirse al usuario al terminar la operación?
+- ¿A qué URL debe redirse al usuario al terminar la operación?
+    - ¿Qué metodo HTTP debe utilizarse al redirigir al usuario?
 
 ## Errores
 
