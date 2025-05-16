@@ -4,17 +4,25 @@
 - ¿Qué método http debe usar el form?
 - ¿Qué formato de datos debe enviar el form?
 - ¿Qué campos debe tener el form?
-    - ¿El campo debe ser de solo lectura?
-    - ¿Qué nombre debe tener cada campo?
-    - ¿Qué tipo de campo debe ser cada uno?
-    - ¿Qué campos son requeridos?
-    - ¿El campo debe ser excluyente con otros campos?
-    - ¿El campo debe aceptar múltiples valores?
-    - ¿El campo debe tener un valor por defecto?
-    - ¿El campo debe activarse o desactivarse?
-        - ¿Con qué condiciones debe activarse?
-        - ¿Con qué condiciones debe desactivarse?
-<!-- - ¿A qué ruta debe redirigirse el form después de ser procesado? -->
+
+## Inputs
+
+- ¿Qué nombre debe tener el campo?
+- ¿Qué tipo de campo debe ser?
+- ¿El campo debe tener un label?
+- ¿El campo debe tener un placeholder?
+- ¿El campo debe tener un valor por defecto?
+- ¿El campo es requerido?
+- ¿El campo debe ser de solo lectura?
+- ¿El campo debe aceptar múltiples valores?
+- ¿El campo debe ser excluyente con otros campos?
+- ¿El campo está agrupado con otros campos?
+- ¿El campo debe activarse o desactivarse?
+  - ¿Con qué condiciones debe activarse?
+  - ¿Con qué condiciones debe desactivarse?
+- ¿El campo debe ocultarse?
+  - ¿Con qué condiciones debe ocultarse?
+  - ¿Con qué condiciones debe mostrarse?
 
 ## Formset
 
