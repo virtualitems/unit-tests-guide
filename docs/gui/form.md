@@ -13,7 +13,9 @@
   - ¿Qué texto debe tener el label del campo?
 - ¿Qué tooltip debe tener el campo?
 - ¿El campo debe tener un placeholder?
-- ¿El campo debe tener un valor por defecto?
+  - ¿Qué texto debe tener el placeholder del campo?
+- ¿El campo debe tener un valor predeterminado?
+  - ¿Cuál es el valor predeterminado del campo?
 - ¿El campo es requerido?
 - ¿El campo debe ser de solo lectura?
 - ¿El campo debe aceptar múltiples valores?
