@@ -10,6 +10,8 @@
 - ¿Qué nombre debe tener el campo?
 - ¿Qué tipo de campo debe ser?
 - ¿El campo debe tener un label?
+  - ¿Qué texto debe tener el label del campo?
+- ¿Qué tooltip debe tener el campo?
 - ¿El campo debe tener un placeholder?
 - ¿El campo debe tener un valor por defecto?
 - ¿El campo es requerido?
