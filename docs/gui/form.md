@@ -9,18 +9,20 @@
 
 - ¿Qué nombre debe tener el campo?
 - ¿Qué tipo de campo debe ser?
+  - ¿El campo debe tener un valor predeterminado?
+  - ¿Dónde se encuentra el dataset del campo?
 - ¿El campo debe tener un label?
   - ¿Qué texto debe tener el label del campo?
 - ¿Qué tooltip debe tener el campo?
 - ¿El campo debe tener un placeholder?
   - ¿Qué texto debe tener el placeholder del campo?
-- ¿El campo debe tener un valor predeterminado?
   - ¿Cuál es el valor predeterminado del campo?
 - ¿El campo es requerido?
 - ¿El campo debe ser de solo lectura?
 - ¿El campo debe aceptar múltiples valores?
 - ¿El campo debe ser excluyente con otros campos?
 - ¿El campo está agrupado con otros campos?
+  - ¿Qué tipo de agrupación tiene el campo?
 - ¿El campo debe activarse o desactivarse?
   - ¿Con qué condiciones debe activarse?
   - ¿Con qué condiciones debe desactivarse?
