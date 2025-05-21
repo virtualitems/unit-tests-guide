@@ -21,6 +21,7 @@
 - ¿El campo debe ser de solo lectura?
 - ¿El campo debe aceptar múltiples valores?
 - ¿El campo debe ser excluyente con otros campos?
+  - ¿Qué campo debe ser excluido?
 - ¿El campo está agrupado con otros campos?
   - ¿Qué tipo de agrupación tiene el campo?
 - ¿El campo debe activarse o desactivarse?
