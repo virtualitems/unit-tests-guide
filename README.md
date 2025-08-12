@@ -3,14 +3,16 @@
 Esta guía te llevará a dominar la aplicación de pruebas unitarias en software, asegurando calidad y robustez en cada feature que desarrolles.
 
 - Pruebas para datos
-    - [Booleano](./docs/input/boolean.md)
-    - [Fecha](./docs/input/date.md)
-    - [Duración](./docs/input/duration.md)
-    - [Archivo](./docs/input/file.md)
-    - [Número](./docs/input/number.md)
-    - [Selección](./docs/input/selection.md)
-    - [Texto](./docs/input/text.md)
+    - [Booleano](./docs/data/boolean.md)
+    - [Fecha](./docs/data/date.md)
+    - [Duración](./docs/data/duration.md)
+    - [Archivo](./docs/data/file.md)
+    - [Número](./docs/data/number.md)
+    - [Selección](./docs/data/selection.md)
+    - [Texto](./docs/data/text.md)
 
-- Pruebas para procedimientos
-    - [Formularios](./docs/procedure/form.md)
-    - [Consulta de datos](./docs/procedure/query.md)
+- Pruebas para componentes gráficos
+    - [Formularios](./docs/gui/form.md)
+
+- Pruebas para API web
+    - [Consulta de datos](./docs/api/rest-query.md)
