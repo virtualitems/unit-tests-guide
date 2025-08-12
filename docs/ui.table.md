@@ -21,3 +21,9 @@
 
 - ¿La tabla debe tener footer?
   - ¿Cuál es el contenido del footer?
+
+
+# Enlace
+
+- ¿Algún elemento de la tabla debe tener un enlace?
+    - ¿A qué ruta debe apuntar el enlace?
