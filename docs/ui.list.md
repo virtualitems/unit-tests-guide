@@ -30,7 +30,11 @@
     - ¿Cómo debe destacarse el elemento en estado de éxito?
     - ¿Cómo debe destacarse el elemento en estado de error?
 
-## Enlace
+## No script
+
+- ¿Cómo debe comportarse el elemento si JavaScript está deshabilitado?
+
+## Enlaces
 
 - ¿Algún elemento de la lista debe tener un enlace?
     - ¿A qué ruta debe apuntar el enlace?

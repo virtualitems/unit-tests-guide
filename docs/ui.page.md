@@ -11,6 +11,10 @@
 - ¿El elemento puede estar en estado de carga?
     - ¿Cómo debe destacarse el elemento en estado de carga?
 
+## No script
+
+- ¿Cómo debe comportarse el elemento si JavaScript está deshabilitado?
+
 ## Responsive
 
 - ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?

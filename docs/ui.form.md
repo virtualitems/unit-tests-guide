@@ -58,6 +58,10 @@
     - ¿En qué condiciones se debe desactivar el elemento?
     - ¿Cómo debe destacarse el elemento activo?
 
+## No script
+
+- ¿Cómo debe comportarse el elemento si JavaScript está deshabilitado?
+
 ## Responsive
 
 - ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?
