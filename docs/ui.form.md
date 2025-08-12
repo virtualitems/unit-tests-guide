@@ -48,3 +48,11 @@
 - ¿El wizard debe validar los datos antes de avanzar al siguiente paso?
 - ¿El wizard debe validar los datos antes de enviar el form?
 - ¿El wizard debe permitir guardar el progreso y continuar más tarde?
+
+## Responsive
+
+- ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?
+- ¿Cómo debe ajustarse visualmente en una pantalla md (768px)?
+- ¿Cómo debe ajustarse visualmente en una pantalla lg (1024px)?
+- ¿Cómo debe ajustarse visualmente en una pantalla xl (1280px)?
+- ¿Cómo debe ajustarse visualmente en una pantalla 2xl (1536px)?

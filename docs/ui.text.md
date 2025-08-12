@@ -55,3 +55,11 @@
 
 - ¿El texto debe tener un enlace?
     - ¿A qué ruta debe apuntar el enlace?
+
+## Responsive
+
+- ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?
+- ¿Cómo debe ajustarse visualmente en una pantalla md (768px)?
+- ¿Cómo debe ajustarse visualmente en una pantalla lg (1024px)?
+- ¿Cómo debe ajustarse visualmente en una pantalla xl (1280px)?
+- ¿Cómo debe ajustarse visualmente en una pantalla 2xl (1536px)?
