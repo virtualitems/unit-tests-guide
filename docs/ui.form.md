@@ -24,12 +24,6 @@
   - ¿Qué campo debe ser excluido?
 - ¿El campo está agrupado con otros campos?
   - ¿Qué tipo de agrupación tiene el campo?
-- ¿El campo debe activarse o desactivarse?
-  - ¿Con qué condiciones debe activarse?
-  - ¿Con qué condiciones debe desactivarse?
-- ¿El campo debe ocultarse?
-  - ¿Con qué condiciones debe ocultarse?
-  - ¿Con qué condiciones debe mostrarse?
 
 ## Formset
 
@@ -48,6 +42,21 @@
 - ¿El wizard debe validar los datos antes de avanzar al siguiente paso?
 - ¿El wizard debe validar los datos antes de enviar el form?
 - ¿El wizard debe permitir guardar el progreso y continuar más tarde?
+
+## Estados
+
+- ¿Algún elemento puede estar deshabilitado?
+    - ¿En qué condiciones se debe deshabilitar el elemento?
+    - ¿En qué condiciones se debe habilitar el elemento?
+
+- ¿Algún elemento puede estar oculto?
+    - ¿En qué condiciones se debe ocultar el elemento?
+    - ¿En qué condiciones se debe mostrar el elemento?
+
+- ¿Algún elemento puede estar activo?
+    - ¿En qué condiciones se debe activar el elemento?
+    - ¿En qué condiciones se debe desactivar el elemento?
+    - ¿Cómo debe destacarse el elemento activo?
 
 ## Responsive
 

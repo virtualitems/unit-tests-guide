@@ -8,7 +8,22 @@
     - ¿Los elementos deben ser clickeables?
     - ¿Los elementos deben ser seleccionables?
 
-# Enlace
+## Estados
+
+- ¿Algún elemento puede estar deshabilitado?
+    - ¿En qué condiciones se debe deshabilitar el elemento?
+    - ¿En qué condiciones se debe habilitar el elemento?
+
+- ¿Algún elemento puede estar oculto?
+    - ¿En qué condiciones se debe ocultar el elemento?
+    - ¿En qué condiciones se debe mostrar el elemento?
+
+- ¿Algún elemento puede estar activo?
+    - ¿En qué condiciones se debe activar el elemento?
+    - ¿En qué condiciones se debe desactivar el elemento?
+    - ¿Cómo debe destacarse el elemento activo?
+
+## Enlace
 
 - ¿Algún elemento de la lista debe tener un enlace?
     - ¿A qué ruta debe apuntar el enlace?

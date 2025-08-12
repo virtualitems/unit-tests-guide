@@ -11,7 +11,22 @@
     - ¿Se debe permitir hacer zoom en la imagen?
     - ¿Se debe permitir desplazar la imagen?
 
-# Enlace
+## Estados
+
+- ¿El elemento puede estar deshabilitado?
+    - ¿En qué condiciones se debe deshabilitar el elemento?
+    - ¿En qué condiciones se debe habilitar el elemento?
+
+- ¿El elemento puede estar oculto?
+    - ¿En qué condiciones se debe ocultar el elemento?
+    - ¿En qué condiciones se debe mostrar el elemento?
+
+- ¿El elemento puede estar activo?
+    - ¿En qué condiciones se debe activar el elemento?
+    - ¿En qué condiciones se debe desactivar el elemento?
+    - ¿Cómo debe destacarse el elemento activo?
+
+## Enlace
 
 - ¿La imagen debe tener un enlace?
     - ¿A qué ruta debe apuntar el enlace?
