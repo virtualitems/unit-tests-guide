@@ -7,7 +7,11 @@
 - ¿Cómo se manejan las imágenes que no se pueden cargar?
 - ¿La imagen debe tener un caption?
 - ¿Qué interacciones se permiten con la imagen?
-    - ¿La imagen debe tener un enlace?
-    - ¿La imagen debe tener un area clickable?
+    - ¿La imagen debe tener un area clickable? <!-- area -->
     - ¿Se debe permitir hacer zoom en la imagen?
     - ¿Se debe permitir desplazar la imagen?
+
+# Enlace
+
+- ¿La imagen debe tener un enlace?
+    - ¿A qué ruta debe apuntar el enlace?
