@@ -7,3 +7,8 @@
     - ¿Los elementos deben tener enlaces?
     - ¿Los elementos deben ser clickeables?
     - ¿Los elementos deben ser seleccionables?
+
+# Enlace
+
+- ¿Algún elemento de la lista debe tener un enlace?
+    - ¿A qué ruta debe apuntar el enlace?
