@@ -19,10 +19,13 @@
     - Importante <!-- strong -->
     - Información de contacto <!-- address -->
     - Inserción <!-- ins -->
+    - Leyenda de campos agrupados <!-- legend -->
     - Leyenda de figura <!-- figcaption -->
+    - Leyenda de tabla <!-- caption -->
     - Párrafo <!-- p -->
     - Pequeño <!-- small -->
     - Preformateado <!-- pre -->
+    - Resumen <!-- summary -->
     - Salida de muestra <!-- samp -->
     - Subíndice <!-- sub -->
     - Superíndice <!-- sup -->
