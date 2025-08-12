@@ -65,6 +65,7 @@
 
 - ¿Algún elemento del menú debe tener un enlace?
   - ¿A qué ruta debe apuntar el enlace?
+  - ¿El enlace debe abrirse en una nueva ventana?
 
 ## Responsive
 
