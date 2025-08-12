@@ -1,6 +1,9 @@
-# Dato de tipo archivo
+# General
 
-- [Especificaciones generales](./general.md)
+- ¿acepta valor nulo?
+- ¿tiene un valor predeterminado?
+
+# Dato de tipo archivo
 
 - ¿Qué formato de archivo debe aceptar?
 - ¿Cuál debe ser el tamaño mínimo aceptado?

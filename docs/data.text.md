@@ -1,6 +1,9 @@
-# Dato de tipo texto
+# General
 
-- [Especificaciones generales](./general.md)
+- ¿acepta valor nulo?
+- ¿tiene un valor predeterminado?
+
+# Dato de tipo texto
 
 - ¿Cuál debe ser la longitud mínima aceptada?
 - ¿Cuál debe ser la longitud máxima aceptada?

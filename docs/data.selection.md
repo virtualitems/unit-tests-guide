@@ -1,6 +1,9 @@
-# Dato de tipo opción
+# General
 
-- [Especificaciones generales](./general.md)
+- ¿acepta valor nulo?
+- ¿tiene un valor predeterminado?
+
+# Dato de tipo opción
 
 - ¿Cuáles deben ser las opciones disponibles?
     - ¿Debe permitir seleccionar múltiples opciones?

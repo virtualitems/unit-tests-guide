@@ -1,6 +1,9 @@
-# Dato de tipo duración
+# General
 
-- [Especificaciones generales](./general.md)
+- ¿acepta valor nulo?
+- ¿tiene un valor predeterminado?
+
+# Dato de tipo duración
 
 - ¿Qué formato de duración debe usar?
     - ¿Debe contener el año?

@@ -1,6 +1,9 @@
-# Dato de tipo número
+# General
 
-- [Especificaciones generales](./general.md)
+- ¿acepta valor nulo?
+- ¿tiene un valor predeterminado?
+
+# Dato de tipo número
 
 - ¿Debe aceptar ceros a la izquierda?
 - ¿Debe aceptar notación científica?

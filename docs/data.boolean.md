@@ -1,6 +1,9 @@
-# Booleano
+# General
 
-- [Especificaciones generales](./general.md)
+- ¿acepta valor nulo?
+- ¿tiene un valor predeterminado?
+
+# Booleano
 
 - ¿Debe aceptar el valor false?
     - ¿Qué dato debe representar el valor false?

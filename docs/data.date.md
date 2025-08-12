@@ -1,6 +1,9 @@
-# Dato de tipo fecha y hora
+# General
 
-- [Especificaciones generales](./general.md)
+- ¿acepta valor nulo?
+- ¿tiene un valor predeterminado?
+
+# Dato de tipo fecha y hora
 
 - ¿Qué formato de fecha y hora debe usar?
     - ¿Debe contiener el año?
