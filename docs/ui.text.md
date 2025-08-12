@@ -66,6 +66,13 @@
     - ¿En qué condiciones se debe desactivar el elemento?
     - ¿Cómo debe destacarse el elemento activo?
 
+- ¿El elemento puede estar en estado de carga?
+    - ¿Cómo debe destacarse el elemento en estado de carga?
+
+- ¿El elemento puede estar en estado de éxito o error?
+    - ¿Cómo debe destacarse el elemento en estado de éxito?
+    - ¿Cómo debe destacarse el elemento en estado de error?
+
 ## Enlace
 
 - ¿El texto debe tener un enlace?

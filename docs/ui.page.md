@@ -6,6 +6,11 @@
 - ¿Cuáles deben ser los metadatos de la página?
 - ¿Cuál debe ser el contenido del archivo robots.txt para la página?
 
+## Estados
+
+- ¿El elemento puede estar en estado de carga?
+    - ¿Cómo debe destacarse el elemento en estado de carga?
+
 ## Responsive
 
 - ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?
