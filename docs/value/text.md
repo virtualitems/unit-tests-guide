@@ -1,9 +1,11 @@
+# Dato de tipo texto
+
+Un texto es una secuencia de caracteres utilizada para expresar información mediante símbolos, palabras, identificadores u otras formas de contenido textual.
+
 # General
 
 - ¿acepta valor nulo?
 - ¿tiene un valor predeterminado?
-
-# Dato de tipo texto
 
 - ¿Cuál debe ser la longitud mínima aceptada?
 - ¿Cuál debe ser la longitud máxima aceptada?
