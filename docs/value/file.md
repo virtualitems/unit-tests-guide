@@ -1,9 +1,11 @@
+# Dato de tipo archivo
+
+Un archivo es una unidad de información que agrupa contenido bajo una representación identificable y transportable.
+
 # General
 
 - ¿acepta valor nulo?
 - ¿tiene un valor predeterminado?
-
-# Dato de tipo archivo
 
 - ¿Qué formato de archivo debe aceptar?
 - ¿Cuál debe ser el tamaño mínimo aceptado?
