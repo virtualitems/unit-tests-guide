@@ -1,9 +1,11 @@
+# Dato de tipo fecha y hora
+
+Una fecha es un valor temporal que identifica un día, un momento, una duración o una combinación de componentes relacionados con el tiempo.
+
 # General
 
 - ¿acepta valor nulo?
 - ¿tiene un valor predeterminado?
-
-# Dato de tipo fecha y hora
 
 - ¿Qué formato de fecha y hora debe usar?
     - ¿Debe contiener el año?
