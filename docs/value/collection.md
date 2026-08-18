@@ -1,3 +1,7 @@
+# Dato de tipo colección
+
+Una colección es un conjunto de valores agrupados y tratados como una unidad, cuyos elementos pueden mantener orden, identidad, repetición u otras relaciones entre sí.
+
 # General
 
 - ¿acepta valor nulo?
