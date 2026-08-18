@@ -1,9 +1,11 @@
+# Dato de tipo número
+
+Un número es un valor que expresa una cantidad, magnitud, posición o relación matemática.
+
 # General
 
 - ¿acepta valor nulo?
 - ¿tiene un valor predeterminado?
-
-# Dato de tipo número
 
 - ¿Debe aceptar ceros a la izquierda?
 - ¿Debe aceptar notación científica?
