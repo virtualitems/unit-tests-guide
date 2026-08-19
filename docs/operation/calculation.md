@@ -7,18 +7,18 @@ name: calculation
 
 ## Definición
 
-Un cálculo es una operación que produce un valor mediante la aplicación de una o más reglas sobre la información disponible.
+Una operación de cálculo produce un valor mediante la aplicación de una o más reglas de cálculo a valores de entrada.
 
 ## Criterios
 
-### Entrada
+### Valores de entrada
 
-- ¿Qué información o valores se usan en el cálculo?
+- ¿Qué valores utiliza la operación?
 
-### Operación
+### Reglas
 
-- ¿Qué procedimiento, regla o fórmula define la operación?
+- ¿Qué reglas de cálculo debe aplicar?
 
 ### Resultado
 
-- ¿Qué valor debe producirse?
+- ¿Qué valor debe producir la operación?
