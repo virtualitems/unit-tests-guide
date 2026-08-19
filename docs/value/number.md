@@ -1,25 +1,39 @@
+---
+type: value
+name: number
+---
+
 # Número
+
+## Definición
 
 Un número es un valor que expresa una cantidad, magnitud, posición o relación matemática.
 
-# General
+## Criterios
 
-- ¿acepta valor nulo?
-- ¿tiene un valor predeterminado?
+### Presencia
+
+- ¿Puede estar ausente?
+- ¿Puede tener un valor predeterminado?
+
+### Rango
+
+- ¿Cuál es el valor mínimo aceptado?
+- ¿Cuál es el valor máximo aceptado?
+
+### Formato
 
 - ¿Debe aceptar ceros a la izquierda?
 - ¿Debe aceptar notación científica?
 - ¿Debe ignorar valores específicos?
-    - ¿Qué valores debe ignorar?
-- ¿Cuál debe ser el valor mínimo aceptado?
-- ¿Cuál debe ser el valor máximo aceptado?
+- ¿Qué valores debe ignorar?
 
-## Número entero
+### Entero
 
 - ¿Debe aceptar números enteros?
 
-## Número real
+### Real
 
 - ¿Debe aceptar números con decimales?
-    - ¿Cuántos dígitos decimales debe aceptar?
-    - ¿Debe aceptar ceros a la derecha después del punto decimal?
+- ¿Cuántos dígitos decimales debe aceptar?
+- ¿Debe aceptar ceros a la derecha después del punto decimal?

@@ -1,48 +1,53 @@
+---
+type: value
+name: text
+---
+
 # Texto
 
-Un texto es una secuencia de caracteres utilizada para expresar información mediante símbolos, palabras, identificadores u otras formas de contenido textual.
+## Definición
 
-# General
+Un texto es una secuencia de caracteres utilizada para representar información mediante símbolos, palabras, identificadores u otras formas de contenido textual.
 
-- ¿acepta valor nulo?
-- ¿tiene un valor predeterminado?
+## Criterios
 
-- ¿Cuál debe ser la longitud mínima aceptada?
-- ¿Cuál debe ser la longitud máxima aceptada?
-- ¿Debe aceptar espacios?
-    - ¿Debe aceptar espacios al inicio?
-    - ¿Debe aceptar espacios al final?
-    - ¿Debe aceptar espacios intermedios?
-    - ¿Debe aceptar dos o más espacios consecutivos?
-    - ¿Debe aceptar sólo espacios?
-    - ¿Debe aceptar saltos de línea?
-    - ¿Debe aceptar tabulaciones?
-- ¿Qué caracteres debe aceptar?
-    - ¿Debe aceptar caracteres de números?
-    - ¿Debe aceptar caracteres de múltiples idiomas?
-    - ¿Debe aceptar caracteres de letras con tildes?
-    - ¿Debe aceptar caracteres de letras minúsculas?
-    - ¿Debe aceptar caracteres de letras mayúsculas?
-    - ¿Debe aceptar caracteres de símbolos?
-    - ¿Debe aceptar caracteres de emojis?
-    - ¿Debe aceptar caracteres invisibles?
+### Presencia
 
-## Dato de tipo contraseña
+- ¿Puede estar ausente?
+- ¿Puede estar vacío?
 
-- ¿Debe aceptar mínimo una letra?
-    - ¿Debe aceptar mínimo una letra mayúscula?
-    - ¿Debe aceptar mínimo una letra minúscula?
-- ¿Debe aceptar mínimo un número?
-- ¿Debe aceptar mínimo un símbolo?
+### Contenido
 
-## Formatos a validar
+- ¿Qué caracteres puede contener?
+- ¿Existe contenido que no debe aceptar?
 
-- csrf token
-- email
-- file path
-- json
-- phone number
-- slug
-- url
-- uuid
-- xml
+### Longitud
+
+- ¿Existe una longitud mínima?
+- ¿Existe una longitud máxima?
+
+### Formato
+
+- ¿Debe cumplir un formato?
+- ¿Debe conservar espacios?
+- ¿Distingue entre mayúsculas y minúsculas?
+
+### Contraseña
+
+- ¿Debe incluir al menos una letra?
+- ¿Debe incluir al menos una letra mayúscula?
+- ¿Debe incluir al menos una letra minúscula?
+- ¿Debe incluir al menos un número?
+- ¿Debe incluir al menos un símbolo?
+
+### Validación de formatos
+
+- ¿Debe aceptar un identificador CSRF?
+- ¿Debe aceptar un correo electrónico?
+- ¿Debe aceptar una ruta de archivo?
+- ¿Debe aceptar JSON?
+- ¿Debe aceptar un teléfono?
+- ¿Debe aceptar un slug?
+- ¿Debe aceptar una URL?
+- ¿Debe aceptar un UUID?
+- ¿Debe aceptar XML?
