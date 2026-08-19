@@ -1,8 +1,8 @@
-# Framework de pruebas unitarias
+# Contratos de criterios de aceptación
 
-Esta guía te llevará a dominar la aplicación de pruebas unitarias en software, asegurando calidad y robustez en cada feature que desarrolles.
+Esta guía contiene criterios para definir contratos de aceptación sobre valores, reglas de negocio y operaciones de software.
 
-- Pruebas para valores
+- Valores
     - [Texto](./docs/value/text.md)
     - [Número](./docs/value/number.md)
     - [Booleano](./docs/value/boolean.md)
@@ -10,7 +10,7 @@ Esta guía te llevará a dominar la aplicación de pruebas unitarias en software
     - [Colección](./docs/value/collection.md)
     - [Archivo](./docs/value/file.md)
 
-- Pruebas para reglas
+- Reglas de negocio
     - [Restricción](./docs/rule/restriction.md)
     - [Validación](./docs/rule/validation.md)
     - [Elegibilidad](./docs/rule/eligibility.md)
@@ -24,7 +24,7 @@ Esta guía te llevará a dominar la aplicación de pruebas unitarias en software
     - [Umbral](./docs/rule/threshold.md)
     - [Dependencia](./docs/rule/dependency.md)
 
-- Pruebas para operaciones
+- Operaciones
     - [Creación](./docs/operation/creation.md)
     - [Modificación](./docs/operation/modification.md)
     - [Eliminación](./docs/operation/deletion.md)
