@@ -7,7 +7,7 @@ name: authorization
 
 ## Definición
 
-Una autorización es una regla que determina si un sujeto tiene permitido realizar una acción sobre un objeto, recurso o ámbito determinado.
+Una regla de autorización determina si un sujeto puede realizar una acción sobre un recurso o dentro de un ámbito determinado.
 
 ## Criterios
 
@@ -19,10 +19,14 @@ Una autorización es una regla que determina si un sujeto tiene permitido realiz
 
 - ¿Qué acción está autorizada?
 
-### Objeto
+### Alcance
 
-- ¿Sobre qué recurso o ámbito aplica la autorización?
+- ¿Sobre qué recurso o ámbito puede realizarse la acción?
 
 ### Condición
 
 - ¿Qué condiciones deben cumplirse para autorizar la acción?
+
+### Denegación
+
+- ¿Qué condición determina que la acción no está autorizada?

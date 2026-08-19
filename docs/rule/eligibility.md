@@ -7,19 +7,18 @@ name: eligibility
 
 ## Definición
 
-Una elegibilidad es una regla que determina si un sujeto u objeto reúne las condiciones necesarias para acceder, participar, recibir o ser considerado para algo.
+Una regla de elegibilidad determina si un sujeto u objeto reúne las condiciones necesarias para acceder, participar, recibir o ser considerado para algo.
 
 ## Criterios
 
-### Sujeto
+### Candidato
 
-- ¿Qué sujeto u objeto puede ser elegible?
+- ¿Quién o qué puede ser considerado elegible?
+
+### Propósito
+
+- ¿Para qué puede ser elegible?
 
 ### Condiciones
 
-- ¿Qué condiciones deben cumplirse para ser elegible?
-
-### Resultado
-
-- ¿Qué ocurre cuando es elegible?
-- ¿Qué ocurre cuando no es elegible?
+- ¿Qué condiciones debe cumplir para ser elegible?

@@ -15,6 +15,7 @@ Un número es un valor que expresa una cantidad, magnitud, posición o relación
 
 - ¿Puede estar ausente?
 - ¿Puede tener un valor predeterminado?
+    - ¿Cuál es el valor predeterminado?
 
 ### Rango
 
@@ -25,8 +26,11 @@ Un número es un valor que expresa una cantidad, magnitud, posición o relación
 
 - ¿Debe aceptar ceros a la izquierda?
 - ¿Debe aceptar notación científica?
-- ¿Debe ignorar valores específicos?
-- ¿Qué valores debe ignorar?
+
+### Valores excluidos
+
+- ¿Existen valores específicos que deban rechazarse aunque estén dentro del rango permitido?
+    - ¿Cuáles?
 
 ### Entero
 
@@ -35,5 +39,5 @@ Un número es un valor que expresa una cantidad, magnitud, posición o relación
 ### Real
 
 - ¿Debe aceptar números con decimales?
-- ¿Cuántos dígitos decimales debe aceptar?
+- ¿Cuál es la cantidad máxima de dígitos decimales permitida?
 - ¿Debe aceptar ceros a la derecha después del punto decimal?

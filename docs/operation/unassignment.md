@@ -11,13 +11,17 @@ Una desasignación es una operación que elimina una relación de asignación ex
 
 ## Criterios
 
-### Elemento
+### Asignado
 
-- ¿Qué relación o asignación puede deshacerse?
+- ¿Qué elemento deja de estar asignado?
 
-### Origen
+### Receptor
 
-- ¿Qué elemento o conjunto deja de estar asociado?
+- ¿De quién o de qué deja de estar asignado?
+
+### Relación
+
+- ¿Qué relación de asignación debe eliminarse?
 
 ### Condiciones
 
@@ -25,5 +29,4 @@ Una desasignación es una operación que elimina una relación de asignación ex
 
 ### Resultado
 
-- ¿Qué relación queda eliminada?
-- ¿Qué debe permanecer sin cambios?
+- ¿Qué otras relaciones de asignación deben conservarse?

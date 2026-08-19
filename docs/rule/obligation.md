@@ -7,19 +7,22 @@ name: obligation
 
 ## Definición
 
-Una obligación es una regla que establece algo que debe ocurrir cuando se presentan determinadas condiciones.
+Una regla de obligación establece algo que necesariamente debe ocurrir cuando se cumplen determinadas condiciones.
 
 ## Criterios
 
-### Condición
+### Activación
 
-- ¿Qué condiciones activan la obligación?
+- ¿Qué condiciones originan la obligación?
 
-### Requisito
+### Obligación
 
 - ¿Qué debe ocurrir o cumplirse?
 
-### Alcance
+### Cumplimiento
 
-- ¿Cuándo debe ejecutarse?
-- ¿Qué ocurre si no se cumple?
+- ¿Cuándo debe cumplirse la obligación?
+
+### Incumplimiento
+
+- ¿Qué condición determina que la obligación fue incumplida?

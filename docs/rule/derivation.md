@@ -7,19 +7,20 @@ name: derivation
 
 ## Definición
 
-Una derivación es una regla que obtiene un dato, estado o propiedad a partir de información existente y de las relaciones definidas entre sus elementos.
+Una regla de derivación determina un dato, estado o propiedad a partir de otros datos, estados o propiedades existentes.
 
 ## Criterios
 
-### Entrada
+### Datos de origen
 
-- ¿Qué información disponible se usa como base?
+- ¿Qué datos, estados o propiedades se utilizan para realizar la derivación?
 
 ### Relación
 
-- ¿Qué relación o regla permite derivar el valor?
+- ¿Qué relación entre los datos de origen determina el valor derivado?
 
 ### Resultado
 
-- ¿Qué dato, estado o propiedad debe obtenerse?
-- ¿Qué debe pasar si la información base no existe o es inconsistente?
+- ¿Qué dato, estado o propiedad se deriva?
+- ¿Qué ocurre cuando falta un dato necesario para realizar la derivación?
+- ¿Qué ocurre cuando los datos de origen son incompatibles entre sí?

@@ -7,23 +7,19 @@ name: decision
 
 ## Definición
 
-Una decisión es una regla que determina un resultado entre posibles alternativas a partir de las condiciones presentes.
+Una regla de decisión selecciona un resultado entre varias alternativas según las condiciones presentes.
 
 ## Criterios
 
-### Entrada
+### Condiciones
 
-- ¿Qué condiciones o hechos se consideran?
+- ¿Qué hechos o condiciones intervienen en la decisión?
 
 ### Alternativas
 
-- ¿Qué resultados o decisiones posibles existen?
+- ¿Qué resultados posibles puede producir la decisión?
 
-### Aplicación
+### Selección
 
-- ¿Qué condiciones activan cada alternativa?
-- ¿Qué prioridad o precedencia debe respetarse?
-
-### Resultado
-
-- ¿Cuál es el resultado final de la decisión?
+- ¿Qué condiciones corresponden a cada resultado?
+- ¿Qué precedencia debe aplicarse cuando más de un resultado puede corresponder?

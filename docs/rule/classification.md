@@ -7,19 +7,18 @@ name: classification
 
 ## Definición
 
-Una clasificación es una regla que asigna una categoría, tipo, nivel o grupo a un sujeto u objeto de acuerdo con determinadas condiciones.
+Una regla de clasificación asigna una categoría, tipo, nivel o grupo a un sujeto u objeto según determinadas condiciones.
 
 ## Criterios
 
-### Elemento
+### Clasificado
 
-- ¿Qué sujeto u objeto puede clasificarse?
+- ¿Qué se clasifica?
 
-### Criterio
+### Condiciones
 
 - ¿Qué condiciones determinan la categoría?
 
-### Resultado
+### Categoría
 
-- ¿Qué categoría, tipo o grupo debe asignarse?
-- ¿Qué ocurre cuando no corresponde ninguna categoría?
+- ¿Qué categoría, tipo, nivel o grupo corresponde a cada conjunto de condiciones?

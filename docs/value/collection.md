@@ -7,7 +7,7 @@ name: collection
 
 ## Definición
 
-Una colección es un conjunto de valores agrupados y tratados como una unidad, cuyos elementos pueden mantener orden, identidad, repetición u otras relaciones entre sí.
+Una colección es una agrupación de valores tratados como una unidad. Sus elementos pueden conservar un orden, repetirse o mantener relaciones entre sí.
 
 ## Criterios
 
@@ -15,6 +15,7 @@ Una colección es un conjunto de valores agrupados y tratados como una unidad, c
 
 - ¿Puede estar ausente?
 - ¿Puede tener un valor predeterminado?
+    - ¿Cuál es la colección predeterminada?
 - ¿Debe aceptar una colección vacía?
 
 ### Cantidad
@@ -26,4 +27,4 @@ Una colección es un conjunto de valores agrupados y tratados como una unidad, c
 
 - ¿Debe aceptar elementos repetidos?
 - ¿Debe conservar el orden de los elementos?
-- ¿Qué valores deben aceptar sus elementos?
+- ¿Qué valores pueden formar parte de la colección?

@@ -7,17 +7,17 @@ name: export
 
 ## Definición
 
-Una exportación es una operación que produce información destinada a ser utilizada en un contexto externo.
+Una exportación es una operación que produce una representación de información para utilizarla fuera del ámbito que la origina.
 
 ## Criterios
 
-### Origen
+### Contenido
 
-- ¿Qué información se exporta?
+- ¿Qué información debe incluir la exportación?
 
-### Destino
+### Representación
 
-- ¿A qué contexto o formato se exporta?
+- ¿En qué formato o representación debe producirse la información?
 
 ### Condiciones
 
@@ -25,4 +25,4 @@ Una exportación es una operación que produce información destinada a ser util
 
 ### Resultado
 
-- ¿Qué información debe quedar disponible en el contexto externo?
+- ¿Qué debe producir la exportación?

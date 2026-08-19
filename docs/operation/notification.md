@@ -11,19 +11,18 @@ Una notificación es una operación que comunica información a uno o más desti
 
 ## Criterios
 
-### Origen
+### Activación
 
-- ¿Qué información o evento genera la notificación?
+- ¿Qué condición, evento o solicitud origina la notificación?
 
-### Destinatario
+### Destinatarios
 
-- ¿A quién o a qué destinatarios va dirigida?
+- ¿Quién debe recibir la notificación?
 
 ### Condiciones
 
-- ¿Qué condiciones deben cumplirse para emitir la notificación?
+- ¿Qué condiciones adicionales deben cumplirse para emitirla?
 
-### Resultado
+### Contenido
 
-- ¿Qué información debe comunicarse?
-- ¿Qué debe ocurrir con la información original?
+- ¿Qué información debe comunicar la notificación?

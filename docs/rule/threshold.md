@@ -17,9 +17,9 @@ Un umbral es una regla que utiliza uno o más valores de referencia para estable
 
 ### Comparación
 
-- ¿Con qué relación se compara?
+- ¿Qué comparación determina si el umbral se cumple?
 
 ### Resultado
 
-- ¿Qué ocurre cuando se alcanza o supera el umbral?
-- ¿Qué ocurre cuando no se alcanza?
+- ¿Qué condición se establece cuando el umbral se cumple?
+- ¿Qué condición se establece cuando el umbral no se cumple?

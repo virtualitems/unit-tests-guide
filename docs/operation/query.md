@@ -11,15 +11,14 @@ Una consulta es una operación que obtiene información sin modificar aquello so
 
 ## Criterios
 
-### Entrada
+### Fuente
 
-- ¿Qué información, condición o contexto puede consultarse?
+- ¿Sobre qué conjunto de información se realiza la consulta?
 
-### Criterio
+### Selección
 
-- ¿Qué condiciones o filtros determinan la consulta?
+- ¿Qué condiciones determinan qué información forma parte del resultado?
 
 ### Resultado
 
-- ¿Qué información debe obtenerse?
-- ¿Qué debe mantenerse sin cambios?
+- ¿Qué información debe contener el resultado?

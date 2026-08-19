@@ -14,13 +14,14 @@ Una regla temporal es una regla cuyo significado depende de fechas, momentos, du
 ### Referencia temporal
 
 - ¿Cuál es el momento o evento de referencia?
-- ¿Qué relación temporal debe cumplirse?
+- ¿Qué relación temporal debe existir respecto del momento o evento de referencia?
 
 ### Intervalo
 
 - ¿Existe un intervalo de tiempo?
 - ¿Cuál es su duración?
-- ¿Sus límites están incluidos?
+- ¿El inicio del intervalo está incluido?
+- ¿El final del intervalo está incluido?
 
 ### Vigencia
 

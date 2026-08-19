@@ -7,21 +7,17 @@ name: calculation
 
 ## Definición
 
-Un cálculo es una regla que establece cómo obtener un valor a partir de otros valores mediante una relación, fórmula o procedimiento definido.
+Una regla de cálculo establece cómo obtener un valor a partir de otros valores mediante una fórmula, relación o procedimiento definido.
 
 ## Criterios
 
-### Entrada
+### Valores de entrada
 
-- ¿Qué valores o variables intervienen?
-
-### Operación
-
-- ¿Qué procedimiento, fórmula o relación define el cálculo?
+- ¿Qué valores se utilizan para realizar el cálculo?
 
 ### Condiciones
 
-- ¿Qué condiciones deben cumplirse para realizar el cálculo?
+- ¿Bajo qué condiciones debe aplicarse esta regla de cálculo?
 
 ### Resultado
 

@@ -7,19 +7,14 @@ name: validation
 
 ## Definición
 
-Una validación es una regla que determina si un valor, estado, conjunto de información o acción satisface las condiciones establecidas para considerarse válido.
+Una regla de validación determina si un valor, estado, conjunto de información o acción cumple las condiciones requeridas para considerarse válido.
 
 ## Criterios
 
-### Entrada
+### Objeto de validación
 
-- ¿Qué elemento se valida?
+- ¿Qué valor, estado, conjunto de información o acción se valida?
 
 ### Condiciones
 
-- ¿Qué condiciones deben cumplirse?
-
-### Resultado
-
-- ¿Cuándo se considera válido?
-- ¿Qué ocurre cuando el elemento no es válido?
+- ¿Qué condiciones debe cumplir para considerarse válido?

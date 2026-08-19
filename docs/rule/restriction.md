@@ -7,22 +7,19 @@ name: restriction
 
 ## Definición
 
-Una restricción es una regla que establece límites sobre lo que puede ocurrir, existir, realizarse o considerarse permitido dentro de determinadas condiciones.
+Una regla de restricción establece límites sobre lo que puede ocurrir, existir, realizarse o considerarse permitido dentro de determinadas condiciones.
 
 ## Criterios
 
-### Elemento
-
-- ¿Qué elemento está sujeto a la restricción?
-
 ### Restricción
 
-- ¿Qué está prohibido o limitado?
+- ¿Qué se prohíbe o limita?
 
 ### Condiciones
 
 - ¿Bajo qué condiciones aplica la restricción?
+- ¿Existen condiciones en las que la restricción deja de aplicar?
 
-### Resultado
+### Incumplimiento
 
-- ¿Qué ocurre cuando la restricción no se cumple?
+- ¿Qué condición constituye una infracción de la restricción?

@@ -13,11 +13,11 @@ Una importación es una operación que incorpora información proveniente de un 
 
 ### Origen
 
-- ¿De qué contexto externo proviene la información?
+- ¿De qué fuente externa proviene la información?
 
-### Destino
+### Incorporación
 
-- ¿Dónde debe incorporarse la información?
+- ¿A qué información, entidad o conjunto debe incorporarse?
 
 ### Condiciones
 
@@ -26,4 +26,4 @@ Una importación es una operación que incorpora información proveniente de un 
 ### Resultado
 
 - ¿Qué información debe quedar incorporada?
-- ¿Qué debe ocurrir con la información previa?
+- ¿Cómo debe tratarse la información existente que coincida con la información importada?

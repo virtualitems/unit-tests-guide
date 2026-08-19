@@ -7,7 +7,7 @@ name: file
 
 ## Definición
 
-Un archivo es una unidad de información que agrupa contenido bajo una representación identificable y transportable.
+Un archivo es una unidad identificable de información que contiene datos y puede conservarse o transferirse como una unidad.
 
 ## Criterios
 
@@ -15,36 +15,34 @@ Un archivo es una unidad de información que agrupa contenido bajo una represent
 
 - ¿Puede estar ausente?
 - ¿Puede tener un valor predeterminado?
+    - ¿Cuál es el valor predeterminado?
 
 ### Formato
 
-- ¿Qué formato de archivo debe aceptar?
+- ¿Qué formato debe aceptar el archivo?
 
 ### Tamaño
 
-- ¿Cuál debe ser el tamaño mínimo aceptado?
-- ¿Cuál debe ser el tamaño máximo aceptado?
+- ¿Cuál es el tamaño mínimo aceptado?
+- ¿Cuál es el tamaño máximo aceptado?
 
 ### Nombre
 
-- ¿Qué restricciones debe tener el nombre del archivo?
-- ¿Qué caracteres debe aceptar en el nombre?
-- ¿Qué extensión debe aceptar en el nombre?
-- ¿Debe aceptar el nombre sin extensión?
-- ¿Qué longitud debe aceptar en el nombre sin contar la extensión?
+- ¿Qué caracteres puede contener el nombre del archivo?
+- ¿Qué extensiones puede tener el archivo?
+- ¿Puede el nombre omitir la extensión?
+- ¿Cuál es la longitud mínima del nombre sin incluir la extensión?
+- ¿Cuál es la longitud máxima del nombre sin incluir la extensión?
 
 ### CSV
 
-- ¿El contenido debe tener encabezados?
-- ¿Qué delimitador debe usar el contenido?
-- ¿Qué carácter de escape debe usar el contenido?
-- ¿Qué estructura de datos debe tener el contenido?
+- ¿Qué columnas debe contener el archivo?
 
 ### Imagen
 
-- ¿Qué dimensiones debe tener?
+- ¿Qué dimensiones puede tener la imagen?
 
 ### Audio y video
 
-- ¿Qué duración debe tener?
+- ¿Qué límites de duración debe cumplir?
 - ¿Qué formato de compresión debe tener?

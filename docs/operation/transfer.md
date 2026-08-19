@@ -11,13 +11,17 @@ Una transferencia es una operación que mueve un recurso, valor, propiedad, resp
 
 ## Criterios
 
+### Transferido
+
+- ¿Qué recurso, valor, propiedad, responsabilidad o relación se transfiere?
+
 ### Origen
 
-- ¿Qué elemento, valor o responsabilidad sale del origen?
+- ¿De quién o de dónde se transfiere?
 
 ### Destino
 
-- ¿A qué elemento o contexto se transfiere?
+- ¿A quién o a dónde se transfiere?
 
 ### Condiciones
 
@@ -25,5 +29,5 @@ Una transferencia es una operación que mueve un recurso, valor, propiedad, resp
 
 ### Resultado
 
-- ¿Qué debe moverse?
-- ¿Qué debe quedar en el origen y qué en el destino?
+- ¿Qué cambio debe producirse en el origen?
+- ¿Qué cambio debe producirse en el destino?

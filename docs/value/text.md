@@ -19,18 +19,18 @@ Un texto es una secuencia de caracteres utilizada para representar información 
 ### Contenido
 
 - ¿Qué caracteres puede contener?
-- ¿Existe contenido que no debe aceptar?
+- ¿Qué contenido debe rechazarse aunque esté compuesto por caracteres permitidos?
 
 ### Longitud
 
-- ¿Existe una longitud mínima?
-- ¿Existe una longitud máxima?
+- ¿Cuál es la longitud mínima permitida?
+- ¿Cuál es la longitud máxima permitida?
 
 ### Formato
 
 - ¿Debe cumplir un formato?
-- ¿Debe conservar espacios?
-- ¿Distingue entre mayúsculas y minúsculas?
+- ¿Deben conservarse los espacios tal como fueron recibidos?
+- ¿Las mayúsculas y minúsculas deben considerarse diferentes?
 
 ### Contraseña
 
@@ -40,14 +40,13 @@ Un texto es una secuencia de caracteres utilizada para representar información 
 - ¿Debe incluir al menos un número?
 - ¿Debe incluir al menos un símbolo?
 
-### Validación de formatos
+### Formatos específicos
 
-- ¿Debe aceptar un identificador CSRF?
-- ¿Debe aceptar un correo electrónico?
-- ¿Debe aceptar una ruta de archivo?
-- ¿Debe aceptar JSON?
-- ¿Debe aceptar un teléfono?
-- ¿Debe aceptar un slug?
-- ¿Debe aceptar una URL?
-- ¿Debe aceptar un UUID?
-- ¿Debe aceptar XML?
+- ¿Debe cumplir el formato de una dirección de correo electrónico?
+- ¿Debe cumplir el formato de una ruta de archivo?
+- ¿Debe contener un documento JSON válido?
+- ¿Debe cumplir el formato de un teléfono?
+- ¿Debe cumplir el formato de un slug?
+- ¿Debe cumplir el formato de una URL?
+- ¿Debe cumplir el formato de un UUID?
+- ¿Debe contener un documento XML válido?

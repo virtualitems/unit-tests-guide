@@ -7,7 +7,7 @@ name: date
 
 ## Definición
 
-Una fecha y hora es un valor temporal que representa una fecha, una hora, un momento o una combinación de componentes de fecha y hora.
+Una fecha y hora es un valor temporal que representa una fecha, una hora o un momento mediante componentes de calendario y tiempo.
 
 ## Criterios
 
@@ -15,10 +15,14 @@ Una fecha y hora es un valor temporal que representa una fecha, una hora, un mom
 
 - ¿Puede estar ausente?
 - ¿Puede tener un valor predeterminado?
+    - ¿Cuál es el valor predeterminado?
 
 ### Formato
 
-- ¿Qué formato de fecha y hora debe usar?
+- ¿Qué formato debe usar para representar la fecha y hora?
+
+### Componentes
+
 - ¿Debe contener el año?
 - ¿Debe contener el mes?
 - ¿Debe contener el día?

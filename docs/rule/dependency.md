@@ -7,19 +7,19 @@ name: dependency
 
 ## Definición
 
-Una dependencia es una regla que establece que una condición, estado, resultado o posibilidad depende de la existencia, estado, valor o comportamiento de otro elemento.
+Una regla de dependencia establece que una condición, estado, resultado o posibilidad depende de la existencia, estado, valor o comportamiento de otro elemento.
 
 ## Criterios
 
-### Elemento principal
+### Dependiente
 
-- ¿Qué elemento depende de otro?
+- ¿Qué condición, estado, resultado o posibilidad depende de otro elemento?
 
-### Elemento requerido
+### Dependencia
 
 - ¿De qué elemento depende?
 
-### Relación
+### Condición
 
-- ¿Qué condición o vínculo debe existir entre ambos?
-- ¿Qué ocurre si la dependencia no se cumple?
+- ¿Qué debe cumplirse en la dependencia?
+- ¿Qué ocurre con el elemento dependiente cuando la condición no se cumple?

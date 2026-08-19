@@ -7,17 +7,17 @@ name: state-transition
 
 ## Definición
 
-Una transición de estado es una operación que cambia el estado de un elemento desde una condición de origen hacia una condición de destino.
+Una transición de estado es una operación que cambia el estado de un elemento desde un estado de origen hacia un estado de destino.
 
 ## Criterios
 
 ### Origen
 
-- ¿Desde qué estados puede ejecutarse?
+- ¿Qué estados permiten iniciar la transición?
 
 ### Destino
 
-- ¿Cuál debe ser el estado resultante?
+- ¿Qué estado debe resultar de la transición?
 
 ### Condiciones
 
@@ -25,5 +25,5 @@ Una transición de estado es una operación que cambia el estado de un elemento 
 
 ### Resultado
 
-- ¿Qué debe cambiar?
-- ¿Qué debe permanecer sin cambios?
+- ¿Qué datos o relaciones deben cambiar como consecuencia de la transición?
+- ¿Qué datos o relaciones deben conservarse?

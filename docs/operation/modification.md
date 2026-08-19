@@ -11,13 +11,13 @@ Una modificación es una operación que cambia uno o más aspectos de un element
 
 ## Criterios
 
-### Elemento
+### Modificado
 
-- ¿Qué elemento puede modificarse?
+- ¿Qué elemento se modifica?
 
 ### Cambio
 
-- ¿Qué aspecto o propiedad se modifica?
+- ¿Qué dato, propiedad o relación puede cambiar?
 
 ### Condiciones
 
@@ -25,5 +25,5 @@ Una modificación es una operación que cambia uno o más aspectos de un element
 
 ### Resultado
 
-- ¿Qué debe cambiar?
-- ¿Qué debe mantenerse sin cambios?
+- ¿Qué valor o estado debe tener aquello que se modificó?
+- ¿Qué datos, propiedades o relaciones deben conservarse?
