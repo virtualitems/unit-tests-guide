@@ -7,17 +7,17 @@ name: assignment
 
 ## Definición
 
-Una asignación es una operación que establece una relación entre elementos mediante la asociación de uno con otro.
+Una asignación es una operación que establece una relación entre uno o más elementos.
 
 ## Criterios
 
-### Origen
+### Asignado
 
-- ¿Qué elemento puede ser asignado?
+- ¿Qué se asigna?
 
-### Destino
+### Receptor
 
-- ¿A qué elemento o conjunto se asigna?
+- ¿A quién o a qué se asigna?
 
 ### Condiciones
 
@@ -25,5 +25,5 @@ Una asignación es una operación que establece una relación entre elementos me
 
 ### Resultado
 
-- ¿Qué relación queda establecida?
-- ¿Qué debe mantenerse sin cambios?
+- ¿Qué relación debe existir después de la asignación?
+- ¿Qué relaciones existentes deben conservarse?
