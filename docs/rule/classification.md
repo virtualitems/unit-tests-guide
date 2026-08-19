@@ -22,4 +22,4 @@ Una clasificación es una regla que asigna una categoría, tipo, nivel o grupo a
 ### Resultado
 
 - ¿Qué categoría, tipo o grupo debe asignarse?
-- ¿Qué ocurre si no cumple la condición?
+- ¿Qué ocurre cuando no corresponde ninguna categoría?

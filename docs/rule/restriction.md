@@ -13,13 +13,16 @@ Una restricción es una regla que establece límites sobre lo que puede ocurrir,
 
 ### Elemento
 
-- ¿Qué puede verse limitado?
+- ¿Qué elemento está sujeto a la restricción?
 
-### Límite
+### Restricción
 
-- ¿Qué condición o valor está restringido?
+- ¿Qué está prohibido o limitado?
 
-### Alcance
+### Condiciones
 
-- ¿Qué tipo de acción, valor o estado queda prohibido o limitado?
-- ¿Qué ocurre cuando se excede el límite?
+- ¿Bajo qué condiciones aplica la restricción?
+
+### Resultado
+
+- ¿Qué ocurre cuando la restricción no se cumple?

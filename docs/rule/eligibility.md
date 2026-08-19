@@ -17,9 +17,9 @@ Una elegibilidad es una regla que determina si un sujeto u objeto reúne las con
 
 ### Condiciones
 
-- ¿Qué condiciones deben cumplirse?
+- ¿Qué condiciones deben cumplirse para ser elegible?
 
 ### Resultado
 
-- ¿Cuándo se considera elegible?
-- ¿Qué ocurre si no cumple las condiciones?
+- ¿Qué ocurre cuando es elegible?
+- ¿Qué ocurre cuando no es elegible?

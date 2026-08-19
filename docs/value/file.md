@@ -16,9 +16,12 @@ Un archivo es una unidad de información que agrupa contenido bajo una represent
 - ¿Puede estar ausente?
 - ¿Puede tener un valor predeterminado?
 
-### Tipo y formato
+### Formato
 
 - ¿Qué formato de archivo debe aceptar?
+
+### Tamaño
+
 - ¿Cuál debe ser el tamaño mínimo aceptado?
 - ¿Cuál debe ser el tamaño máximo aceptado?
 

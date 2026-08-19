@@ -22,4 +22,4 @@ Una validación es una regla que determina si un valor, estado, conjunto de info
 ### Resultado
 
 - ¿Cuándo se considera válido?
-- ¿Qué evidencia o señal indica un resultado inválido?
+- ¿Qué ocurre cuando el elemento no es válido?

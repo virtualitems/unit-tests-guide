@@ -19,7 +19,10 @@ Un cálculo es una regla que establece cómo obtener un valor a partir de otros 
 
 - ¿Qué procedimiento, fórmula o relación define el cálculo?
 
+### Condiciones
+
+- ¿Qué condiciones deben cumplirse para realizar el cálculo?
+
 ### Resultado
 
 - ¿Qué valor debe producirse?
-- ¿Qué condiciones deben cumplirse para ejecutar el cálculo?
