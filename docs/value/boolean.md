@@ -11,5 +11,3 @@ Un booleano es un valor que expresa una condición mediante dos estados mutuamen
     - ¿Qué dato debe representar el valor false?
 - ¿Debe aceptar el valor true?
     - ¿Qué dato debe representar el valor true?
-- ¿Debe aceptar un valor indeterminado?
-    - ¿Qué dato debe representar un valor indeterminado?

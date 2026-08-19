@@ -1,4 +1,4 @@
-# Dato de tipo texto
+# Texto
 
 Un texto es una secuencia de caracteres utilizada para expresar información mediante símbolos, palabras, identificadores u otras formas de contenido textual.
 

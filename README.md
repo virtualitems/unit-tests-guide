@@ -6,7 +6,7 @@ Esta guía te llevará a dominar la aplicación de pruebas unitarias en software
     - [Texto](./docs/value/text.md)
     - [Número](./docs/value/number.md)
     - [Booleano](./docs/value/boolean.md)
-    - [Fecha](./docs/value/date.md)
+    - [Fecha y hora](./docs/value/date.md)
     - [Colección](./docs/value/collection.md)
     - [Archivo](./docs/value/file.md)
 
@@ -36,20 +36,5 @@ Esta guía te llevará a dominar la aplicación de pruebas unitarias en software
     - [Desasignación](./docs/operation/unassignment.md)
     - [Transferencia](./docs/operation/transfer.md)
     - [Notificación](./docs/operation/notification.md)
-    - [Importación/Exportación](./docs/operation/import-export.md)
-
-- Pruebas para componentes de interfaz de usuario
-    - [Botón](./docs/ui/button.md)
-    - [Contenedor](./docs/ui/container.md)
-    - [Formulario](./docs/ui/form.md)
-    - [Imagen](./docs/ui/image.md)
-    - [Lista](./docs/ui/list.md)
-    - [Menú](./docs/ui/menu.md)
-    - [Página](./docs/ui/page.md)
-    - [Tabla](./docs/ui/table.md)
-    - [Texto](./docs/ui/text.md)
-    - [Video](./docs/ui/video.md)
-
-- Pruebas para API web
-    - [Consulta de datos](./docs/api/rest-query.md)
-    - [Operaciones de mutación](./docs/api/rest-mutation.md)
+    - [Importación](./docs/operation/import.md)
+    - [Exportación](./docs/operation/export.md)

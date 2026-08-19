@@ -1,4 +1,4 @@
-# Dato de tipo archivo
+# Archivo
 
 Un archivo es una unidad de información que agrupa contenido bajo una representación identificable y transportable.
 
@@ -23,7 +23,7 @@ Un archivo es una unidad de información que agrupa contenido bajo una represent
 - ¿Qué carácter de escape debe usar el contenido?
 - ¿Qué estructura de datos debe tener el contenido?
 
-## Archivo de tipo imágen
+## Archivo de tipo imagen
 
 - ¿Qué dimensiones debe tener?
 

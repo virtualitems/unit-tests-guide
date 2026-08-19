@@ -1,4 +1,4 @@
-# Dato de tipo número
+# Número
 
 Un número es un valor que expresa una cantidad, magnitud, posición o relación matemática.
 

@@ -1,6 +1,6 @@
-# Dato de tipo fecha y hora
+# Fecha y hora
 
-Una fecha es un valor temporal que identifica un día, un momento, una duración o una combinación de componentes relacionados con el tiempo.
+Una fecha y hora es un valor temporal que representa una fecha, una hora, un momento o una combinación de componentes de fecha y hora.
 
 # General
 
@@ -8,13 +8,13 @@ Una fecha es un valor temporal que identifica un día, un momento, una duración
 - ¿tiene un valor predeterminado?
 
 - ¿Qué formato de fecha y hora debe usar?
-    - ¿Debe contiener el año?
-    - ¿Debe contiener el mes?
-    - ¿Debe contiener el día?
-    - ¿Debe contiener la hora?
-    - ¿Debe contiener el minuto?
-    - ¿Debe contiener el segundo?
-    - ¿Debe contiener el milisegundo?
-    - ¿Debe contiener la zona horaria?
+    - ¿Debe contener el año?
+    - ¿Debe contener el mes?
+    - ¿Debe contener el día?
+    - ¿Debe contener la hora?
+    - ¿Debe contener el minuto?
+    - ¿Debe contener el segundo?
+    - ¿Debe contener el milisegundo?
+    - ¿Debe contener la zona horaria?
 - ¿Cuál debe ser la fecha y hora mínima aceptada?
 - ¿Cuál debe ser la fecha y hora máxima aceptada?

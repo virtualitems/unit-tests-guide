@@ -1,4 +1,4 @@
-# Dato de tipo colección
+# Colección
 
 Una colección es un conjunto de valores agrupados y tratados como una unidad, cuyos elementos pueden mantener orden, identidad, repetición u otras relaciones entre sí.
 
@@ -6,11 +6,9 @@ Una colección es un conjunto de valores agrupados y tratados como una unidad, c
 
 - ¿acepta valor nulo?
 - ¿tiene un valor predeterminado?
-
-# Dato de tipo opción
-
-- ¿Cuáles deben ser las opciones disponibles?
-- ¿Debe aceptar múltiples opciones?
-- ¿Debe aceptar solo valores entre las opciones disponibles?
-- ¿Deben existir opciones deshabilitadas?
-    - ¿Cuáles deben ser las opciones deshabilitadas?
+- ¿Debe aceptar una colección vacía?
+- ¿Cuál debe ser la cantidad mínima de elementos?
+- ¿Cuál debe ser la cantidad máxima de elementos?
+- ¿Debe aceptar elementos repetidos?
+- ¿Debe conservar el orden de los elementos?
+- ¿Qué valores deben aceptar sus elementos?
