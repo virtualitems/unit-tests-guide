@@ -7,17 +7,17 @@ name: creation
 
 ## Definición
 
-Una creación es una operación que produce la existencia de un nuevo elemento dentro del contexto en el que se ejecuta.
+Una creación es una operación que hace existir un nuevo elemento.
 
 ## Criterios
 
-### Elemento
+### Creado
 
-- ¿Qué tipo de elemento se crea?
+- ¿Qué se crea?
 
-### Origen
+### Datos de origen
 
-- ¿Qué información, datos o condiciones se usan para crear el elemento?
+- ¿Qué datos se utilizan para crear el nuevo elemento?
 
 ### Condiciones
 
@@ -25,5 +25,4 @@ Una creación es una operación que produce la existencia de un nuevo elemento d
 
 ### Resultado
 
-- ¿Qué debe quedar creado?
-- ¿Qué debe mantenerse sin cambios?
+- ¿Qué datos, estado y relaciones debe tener el elemento creado?
