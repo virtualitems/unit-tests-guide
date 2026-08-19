@@ -7,13 +7,13 @@ name: deletion
 
 ## Definición
 
-Una eliminación es una operación que deja de mantener un elemento, información o relación como parte del contexto en el que existía.
+Una eliminación es una operación que hace que un elemento, dato o relación deje de existir en el ámbito donde estaba disponible.
 
 ## Criterios
 
-### Elemento
+### Eliminado
 
-- ¿Qué elemento, información o relación se elimina?
+- ¿Qué elemento, dato o relación se elimina?
 
 ### Condiciones
 
@@ -21,5 +21,5 @@ Una eliminación es una operación que deja de mantener un elemento, informació
 
 ### Resultado
 
-- ¿Qué debe dejar de existir?
-- ¿Qué debe mantenerse o preservarse?
+- ¿Qué información o relaciones asociadas también deben eliminarse?
+- ¿Qué información o relaciones asociadas deben conservarse?
