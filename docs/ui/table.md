@@ -1,63 +1,74 @@
-# Tablas
+---
+type: ui
+name: table
+---
 
-- ¿Cuál debe ser el título de la tabla?
+# Tabla
 
-- ¿Cuántas columnas debe tener la tabla?
-  - ¿Cuál es el tamaño de cada columna?
-  - ¿Cuál es el tipo de dato de cada columna?
-  - ¿Alguna columna es calculada?
-  - ¿Alguna columna debe estar agrupada?
-  - ¿Alguna columna debe estar oculta?
-    - ¿En qué condiciones debe mostrarse u ocultarse la columna oculta?
+## Definición
 
-- ¿Cuál es la fuente de datos de las filas de la tabla?
-- ¿La tabla debe tener paginación?
-  - ¿Cuántas filas se deben mostrar por página?
-- ¿La tabla debe tener un buscador?
-  - ¿En qué columnas debe buscar el texto?
+Una tabla presenta datos cuya relación depende de filas y columnas. Un grid interactivo añade navegación o edición por celdas y requiere un patrón de interacción distinto.
 
-- ¿La tabla debe tener header?
-  - ¿Cuál es el nombre de cada columna?
+## Criterios
 
-- ¿La tabla debe tener footer?
-  - ¿Cuál es el contenido del footer?
+### Semántica y estructura
 
-## Estados
+- ¿El contenido representa datos tabulares?
+- ¿Existe un nombre o caption que identifique el propósito de la tabla?
+- ¿Qué columnas contiene?
+- ¿Qué celdas son encabezados de columna?
+- ¿Existen encabezados de fila?
+- ¿Existen encabezados agrupados o multinivel?
+- Si existen encabezados complejos, ¿cómo se asocia cada celda de datos con sus encabezados?
 
-- ¿Algún elemento puede estar deshabilitado?
-    - ¿En qué condiciones se debe deshabilitar el elemento?
-    - ¿En qué condiciones se debe habilitar el elemento?
+### Datos
 
-- ¿Algún elemento puede estar oculto?
-    - ¿En qué condiciones se debe ocultar el elemento?
-    - ¿En qué condiciones se debe mostrar el elemento?
+- ¿Cuál es la fuente de las filas?
+- ¿Qué clave identifica de forma estable cada fila?
+- ¿Qué valor muestra cada columna?
+- ¿Existen columnas calculadas?
+- ¿Existen totales o subtotales?
+- ¿Los totales se calculan sobre toda la consulta o solo sobre la página visible?
+- ¿Qué debe mostrarse cuando no existen filas?
 
-- ¿Algún elemento puede estar activo?
-    - ¿En qué condiciones se debe activar el elemento?
-    - ¿En qué condiciones se debe desactivar el elemento?
-    - ¿Cómo debe destacarse el elemento activo?
+### Orden y filtros
 
-- ¿Algún elemento puede estar en estado de carga?
-    - ¿Cómo debe destacarse el elemento en estado de carga?
+- ¿Cuál es el orden predeterminado?
+- ¿Qué columnas pueden ordenar la tabla?
+- ¿Cuál es el criterio de desempate?
+- ¿Cómo se comunica programáticamente la columna y dirección de orden?
+- ¿Qué filtros están disponibles?
+- ¿Cómo se muestran los filtros activos?
+- ¿Existe búsqueda de texto?
+- ¿Qué columnas participan en la búsqueda?
 
-- ¿Algún elemento puede estar en estado de éxito o error?
-    - ¿Cómo debe destacarse el elemento en estado de éxito?
-    - ¿Cómo debe destacarse el elemento en estado de error?
+### Selección e interacción
 
-## No script
+- ¿Las filas pueden seleccionarse?
+- ¿La selección es única o múltiple?
+- ¿Cómo se comunica programáticamente la selección?
+- ¿La tabla permite editar celdas o navegar por ellas como un grid?
+- Si funciona como grid, ¿qué patrón de teclado debe soportar?
+- ¿Alguna celda contiene enlaces o acciones?
+- ¿Qué semántica corresponde a cada interacción?
 
-- ¿Cómo debe comportarse el elemento si JavaScript está deshabilitado?
+### Paginación y virtualización
 
-## Enlaces
+- ¿La tabla utiliza paginación?
+- ¿Cuál es el tamaño de página predeterminado?
+- ¿Qué tamaños de página se permiten?
+- ¿Se muestra el total de filas?
+- ¿Los filtros y el orden se conservan al cambiar de página?
+- ¿La tabla virtualiza filas?
+- Si se virtualiza, ¿cómo se preservan identidad, foco, posición y conteo?
 
-- ¿Algún elemento de la tabla debe tener un enlace?
-    - ¿A qué ruta debe apuntar el enlace?
-    - ¿El enlace debe abrirse en una nueva ventana?
+### Contenido y adaptación
 
-## Responsive
-
-- ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla md (768px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla lg (1024px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla xl (1280px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla 2xl (1536px)?
+- ¿Qué ocurre cuando el contenido de una celda excede el espacio disponible?
+- ¿El contenido puede envolver líneas?
+- ¿El contenido puede truncarse?
+- Si se trunca, ¿el valor completo sigue disponible de forma accesible?
+- ¿La tabla permite desplazamiento horizontal en espacios estrechos?
+- ¿Cómo se preserva la relación entre encabezados y datos cuando cambia la distribución?
+- ¿Qué estado se muestra durante carga?
+- ¿Qué estado se muestra ante un error?

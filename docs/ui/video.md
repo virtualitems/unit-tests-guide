@@ -1,48 +1,66 @@
-# Videos
+---
+type: ui
+name: video
+---
 
-- ¿Qué título debe tener el video?
-- ¿Qué descripción debe tener el video?
-- ¿De qué origen debe provenir el video?
-- ¿El video debe reproducirse automáticamente?
-- ¿El video debe estar en bucle?
-- ¿El video debe tener controles?
+# Video
 
-## Estados
+## Definición
 
-- ¿El elemento puede estar deshabilitado?
-    - ¿En qué condiciones se debe deshabilitar el elemento?
-    - ¿En qué condiciones se debe habilitar el elemento?
+Un video presenta contenido audiovisual pregrabado o en vivo mediante un reproductor con controles y alternativas accesibles definidas por el contenido.
 
-- ¿El elemento puede estar oculto?
-    - ¿En qué condiciones se debe ocultar el elemento?
-    - ¿En qué condiciones se debe mostrar el elemento?
+## Criterios
 
-- ¿El elemento puede estar activo?
-    - ¿En qué condiciones se debe activar el elemento?
-    - ¿En qué condiciones se debe desactivar el elemento?
-    - ¿Cómo debe destacarse el elemento activo?
+### Contenido
 
-- ¿El elemento puede estar en estado de carga?
-    - ¿Cómo debe destacarse el elemento en estado de carga?
+- ¿Cuál es el título del video?
+- ¿Qué descripción lo identifica en contexto?
+- ¿El contenido es pregrabado o en vivo?
+- ¿De qué origen proviene?
+- ¿Existen varias fuentes o formatos alternativos?
+- ¿Qué debe ocurrir cuando una fuente o codec no puede reproducirse?
 
-- ¿El elemento puede estar en estado de éxito o error?
-    - ¿Cómo debe destacarse el elemento en estado de éxito?
-    - ¿Cómo debe destacarse el elemento en estado de error?
+### Alternativas accesibles
 
-## No script
+- ¿Se requieren subtítulos sincronizados?
+- ¿En qué idiomas deben estar disponibles los subtítulos?
+- ¿Se requiere transcripción textual?
+- ¿Se requiere audiodescripción para información visual que no está presente en el audio?
+- ¿Existen pistas alternativas de audio?
+- ¿Cómo selecciona el usuario las pistas disponibles?
 
-- ¿Cómo debe comportarse el elemento si JavaScript está deshabilitado?
+### Reproducción
 
-## Enlaces
+- ¿Puede iniciarse automáticamente?
+- Si existe reproducción automática, ¿debe iniciar sin audio?
+- ¿Puede reproducirse en bucle?
+- ¿Qué poster o vista previa se muestra antes de reproducir?
+- ¿Qué estrategia de precarga forma parte del comportamiento observable?
+- ¿En dispositivos móviles debe reproducirse dentro de la página o puede abrir un modo de pantalla completa?
+- ¿Debe conservarse la posición de reproducción al cambiar de fuente o distribución?
 
-- ¿El video debe tener un enlace?
-    - ¿A qué ruta debe apuntar el enlace?
-    - ¿El enlace debe abrirse en una nueva ventana?
+### Controles
 
-## Responsive
+- ¿Qué controles deben estar disponibles?
+- ¿Debe existir control de reproducción y pausa?
+- ¿Debe existir control de silencio y volumen?
+- ¿Debe permitirse desplazamiento temporal?
+- ¿Debe permitirse modificar la velocidad de reproducción?
+- ¿Qué rango de velocidad se permite?
+- ¿Debe existir control de pantalla completa?
+- ¿Debe existir control para activar subtítulos y pistas alternativas?
+- ¿Todos los controles son operables mediante teclado?
+- ¿Cada control expone nombre, función y estado de forma accesible?
 
-- ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla md (768px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla lg (1024px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla xl (1280px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla 2xl (1536px)?
+### Estados y errores
+
+- ¿Qué se muestra durante la carga?
+- ¿Qué se muestra ante un error de reproducción?
+- ¿Puede reintentarse la reproducción después de un error?
+- ¿Qué ocurre si existe una fuente alternativa después de fallar la fuente principal?
+
+### Accesibilidad y seguridad visual
+
+- ¿Los subtítulos y controles permanecen disponibles en pantalla completa?
+- ¿La transcripción está disponible desde el mismo contexto del video?
+- ¿El contenido evita secuencias de destellos que superen el umbral definido por la política de accesibilidad?

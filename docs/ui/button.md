@@ -1,57 +1,57 @@
+---
+type: ui
+name: button
+---
+
 # Botón
 
-## Tooltip
+## Definición
 
-- ¿El botón debe tener un tooltip?
-  - ¿Qué texto debe mostrar el tooltip?
+Un botón es un control interactivo que ejecuta una acción. La navegación hacia otro recurso se representa mediante un enlace cuando esa es la semántica del elemento.
 
-## Agrupación
+## Criterios
 
-- ¿El botón forma parte de un grupo de botones?
-  - ¿Los botones deben estar unidos visualmente?
-  - ¿Solo uno puede estar activo a la vez?
+### Acción
 
-## Navegación
+- ¿Qué acción ejecuta el control?
+- ¿El elemento ejecuta una acción o navega a otro recurso?
+- Si pertenece a un formulario, ¿su función es enviar, restablecer o ejecutar una acción independiente?
+- ¿La acción puede activarse más de una vez mientras una ejecución anterior está en curso?
+- ¿Una acción destructiva requiere confirmación o posibilidad de deshacer?
 
-- ¿El botón debe permitir navegación por teclado?
-- ¿El botón debe ser parte del orden de tabulación?
+### Contenido
 
-## Estados
+- ¿Qué texto visible debe mostrar?
+- ¿Debe incluir un icono?
+- Si solo muestra un icono, ¿qué nombre accesible identifica la acción?
+- ¿Existe texto auxiliar o tooltip?
+- ¿El tooltip puede descubrirse mediante teclado y puntero?
 
-- ¿El elemento puede estar deshabilitado?
-    - ¿En qué condiciones se debe deshabilitar el elemento?
-    - ¿En qué condiciones se debe habilitar el elemento?
+### Estados
 
-- ¿El elemento puede estar oculto?
-    - ¿En qué condiciones se debe ocultar el elemento?
-    - ¿En qué condiciones se debe mostrar el elemento?
+- ¿En qué condiciones está habilitado?
+- ¿En qué condiciones está deshabilitado?
+- ¿Puede tener estado de carga?
+- ¿La carga bloquea activaciones duplicadas?
+- ¿Puede representar éxito o error después de ejecutarse?
+- ¿Es un control de alternancia con estados activado y desactivado?
+- ¿Controla contenido expandible con estados expandido y contraído?
+- ¿Cómo se comunica cada estado de forma programática y sin depender solo del color?
 
-- ¿El elemento puede estar activo?
-    - ¿En qué condiciones se debe activar el elemento?
-    - ¿En qué condiciones se debe desactivar el elemento?
-    - ¿Cómo debe destacarse el elemento activo?
+### Teclado y foco
 
-- ¿El elemento puede estar en estado de carga?
-    - ¿Cómo debe destacarse el elemento en estado de carga?
+- ¿Puede activarse mediante las teclas correspondientes a su semántica?
+- ¿El foco de teclado es visible?
+- ¿Dónde debe quedar el foco después de ejecutar la acción?
+- ¿El área de activación cumple el tamaño mínimo definido por la política de accesibilidad del producto?
 
-- ¿El elemento puede estar en estado de éxito o error?
-    - ¿Cómo debe destacarse el elemento en estado de éxito?
-    - ¿Cómo debe destacarse el elemento en estado de error?
+### Navegación
 
-## No script
+- Si el elemento navega, ¿cuál es el destino?
+- ¿La navegación abre un nuevo contexto o ventana?
+- Si abre un nuevo contexto, ¿ese comportamiento se comunica al usuario?
 
-- ¿Cómo debe comportarse el elemento si JavaScript está deshabilitado?
+### Adaptación
 
-## Enlaces
-
-- ¿El botón debe tener un enlace?
-    - ¿A qué ruta debe apuntar el enlace?
-    - ¿El enlace debe abrirse en una nueva ventana?
-
-## Responsive
-
-- ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla md (768px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla lg (1024px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla xl (1280px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla 2xl (1536px)?
+- ¿Qué debe cambiar cuando el espacio disponible no permite mostrar el contenido completo?
+- ¿Qué debe conservarse al aumentar zoom o tamaño de texto?

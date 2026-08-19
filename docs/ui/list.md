@@ -1,49 +1,54 @@
+---
+type: ui
+name: list
+---
+
 # Lista
 
-- ¿Se debe usar una lista ordenada o desordenada?
-- ¿La lista debe tener anidamientos?
-- ¿Qué elementos deben incluirse en la lista?
-- ¿Qué interacciones se permiten con los elementos de la lista?
-    - ¿Los elementos deben tener enlaces?
-    - ¿Los elementos deben ser clickeables?
-    - ¿Los elementos deben ser seleccionables?
+## Definición
 
-## Estados
+Una lista presenta elementos relacionados con una semántica de orden, agrupación o descripción definida.
 
-- ¿Algún elemento puede estar deshabilitado?
-    - ¿En qué condiciones se debe deshabilitar el elemento?
-    - ¿En qué condiciones se debe habilitar el elemento?
+## Criterios
 
-- ¿Algún elemento puede estar oculto?
-    - ¿En qué condiciones se debe ocultar el elemento?
-    - ¿En qué condiciones se debe mostrar el elemento?
+### Semántica
 
-- ¿Algún elemento puede estar activo?
-    - ¿En qué condiciones se debe activar el elemento?
-    - ¿En qué condiciones se debe desactivar el elemento?
-    - ¿Cómo debe destacarse el elemento activo?
+- ¿La lista es no ordenada?
+- ¿La lista es ordenada?
+- ¿La lista representa pares de término y descripción?
+- ¿El orden de los elementos tiene significado de dominio?
+- Para una lista ordenada, ¿qué número inicial o dirección de numeración debe utilizarse?
 
-- ¿Algún elemento puede estar en estado de carga?
-    - ¿Cómo debe destacarse el elemento en estado de carga?
+### Elementos
 
-- ¿Algún elemento puede estar en estado de éxito o error?
-    - ¿Cómo debe destacarse el elemento en estado de éxito?
-    - ¿Cómo debe destacarse el elemento en estado de error?
+- ¿Qué fuente proporciona los elementos?
+- ¿Qué identifica de forma estable a cada elemento?
+- ¿Qué contenido muestra cada elemento?
+- ¿Se permiten listas anidadas?
+- ¿Qué jerarquía deben representar los niveles anidados?
+- ¿Qué debe mostrarse cuando la lista está vacía?
 
-## No script
+### Interacción
 
-- ¿Cómo debe comportarse el elemento si JavaScript está deshabilitado?
+- ¿Los elementos son únicamente contenido?
+- ¿Los elementos navegan a otro recurso?
+- ¿Los elementos ejecutan una acción?
+- ¿Los elementos pueden seleccionarse?
+- ¿La selección es única o múltiple?
+- ¿Cómo se comunica programáticamente el estado seleccionado?
+- Si la lista actúa como un widget compuesto, ¿qué patrón de teclado corresponde a su semántica?
 
-## Enlaces
+### Orden y carga
 
-- ¿Algún elemento de la lista debe tener un enlace?
-    - ¿A qué ruta debe apuntar el enlace?
-    - ¿El enlace debe abrirse en una nueva ventana?
+- ¿Los elementos pueden reordenarse?
+- Si se reordenan mediante arrastre, ¿existe una operación equivalente mediante teclado?
+- ¿La lista se pagina o carga elementos progresivamente?
+- ¿Cómo se conserva el foco y la posición de desplazamiento al añadir elementos?
+- ¿Cómo se comunica que se añadieron nuevos elementos?
+- ¿El estado de paginación o carga adicional forma parte de la URL o historial navegable?
 
-## Responsive
+### Virtualización
 
-- ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla md (768px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla lg (1024px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla xl (1280px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla 2xl (1536px)?
+- ¿La lista utiliza virtualización?
+- Si se virtualiza, ¿cómo se preserva la identidad de los elementos?
+- ¿Cómo se preservan posición, conteo y foco de forma observable?

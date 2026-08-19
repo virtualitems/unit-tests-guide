@@ -1,54 +1,113 @@
-# Operaciones de mutación
+---
+type: api
+name: rest-mutation
+---
 
-- ¿Qué URL debe recibir la petición?
+# Mutación REST
 
-## Inputs
+## Definición
 
-- ¿Qué método HTTP debe utilizarse en la petición?
-- ¿Qué datos deben recibirse en la petición?
-    - ¿Debe recibirse un token de autenticación?
-    - ¿Debe recibirse un token CSRF?
-- ¿En qué formato deben recibirse los datos de la petición?
-    - ¿Qué estructura deben tener los datos de la petición?
+Una mutación REST expone mediante HTTP una operación que crea, modifica, elimina o cambia el estado observable de un recurso.
 
-## Outputs
+## Criterios
 
-- ¿Qué headers de CORS deben incluirse?
-    - ¿Qué métodos HTTP deben permitirse?
-    - ¿Qué cabeceras deben permitirse?
-    - ¿Qué orígenes deben permitirse?
-- ¿Qué datos deben devolverse en la respuesta?
-- ¿En qué formato deben devolverse los datos de la respuesta?
-    - ¿Qué estructura deben tener los datos de la respuesta?
-- ¿A qué URL debe redirse al usuario al terminar la operación?
-    - ¿Qué metodo HTTP debe utilizarse al redirigir al usuario?
+### Recurso y método
 
-## Errores
+- ¿Cuál es la URI del recurso o colección?
+- ¿Qué variables de ruta admite la URI?
+- ¿Qué método HTTP representa la operación?
+- ¿La semántica de creación, reemplazo, modificación parcial o eliminación coincide con el método elegido?
+- ¿La operación debe ser idempotente?
 
-- ¿Qué debe suceder al no estar autenticado?
-- ¿Qué debe suceder al no tener permisos para realizar la operación?
-- ¿Qué debe suceder al no encontrar los datos?
-- ¿Qué debe suceder al no poder realizar la operación?
+### Entrada
 
-## Posibles códigos de estado
+- ¿Qué datos recibe la solicitud?
+- ¿Qué media type utiliza el cuerpo?
+- ¿Qué esquema debe cumplir el cuerpo?
+- ¿Qué campos son obligatorios?
+- ¿Qué campos son opcionales?
+- ¿Qué significa omitir un campo?
+- ¿Qué significa enviar `null`?
+- ¿Qué encabezados de aplicación son obligatorios?
+- ¿Qué mecanismo de autenticación se requiere?
+- ¿Qué reglas de autorización deben cumplirse?
+- ¿La operación requiere protección CSRF según el modelo de credenciales utilizado?
 
-- **200 OK:** (Respuesta exitosa con contenido)
-- **201 Created:** (Recurso creado exitosamente)
-- **202 Accepted:** (Solicitud aceptada para procesamiento asincrónico)
-- **204 No Content:** (Operación exitosa sin contenido devuelto)
-- **206 Partial Content:** (Respuesta parcial de una descarga)
-- **304 Not Modified:** Recurso no modificado desde la última solicitud
-- **307 Temporary Redirect:** Redirección temporal sin cambiar el método HTTP
-- **308 Permanent Redirect:** Redirección permanente sin cambiar el método HTTP
-- **400 Bad Request:** Solicitud incorrecta o malformada
-- **401 Unauthorized:** Usuario no autenticado
-- **403 Forbidden:** Usiario autenticado pero sin permisos
-- **404 Not Found:** Recurso no encontrado
-- **405 Method Not Allowed:** El método HTTP no es permitido para el recurso
-- **406 Not Acceptable:** El recurso no puede ser devuelto en el formato del header Accept
-- **409 Conflict:** Conflicto con el estado actual del recurso
-- **415 Unsupported Media Type:** El tipo de contenido en el header Content-Type no es soportado
-- **429 Too Many Requests:** Demasiadas solicitudes en un corto periodo de tiempo
-- **500 Internal Server Error:** Error interno del servidor
-- **501 Not Implemented:** Operación no soportada por el servidor
-- **503 Service Unavailable:** Servicio no disponible temporalmente
+### Precondiciones y concurrencia
+
+- ¿La operación utiliza una versión o `ETag` para detectar cambios concurrentes?
+- ¿El cliente debe enviar `If-Match` para modificar o eliminar una versión concreta?
+- ¿Se utiliza `If-None-Match` para una creación condicional?
+- ¿Qué debe ocurrir cuando la versión del recurso no satisface la precondición enviada por el cliente?
+- ¿Qué debe ocurrir cuando el estado actual del recurso impide completar la operación?
+- ¿Qué estado debe preservarse cuando falla una precondición?
+
+### Idempotencia y reintentos
+
+- ¿Puede el cliente repetir la solicitud después de un timeout sin duplicar el efecto?
+- Si una operación `POST` necesita idempotencia, ¿qué clave identifica el intento lógico?
+- ¿Durante cuánto tiempo conserva efecto la clave de idempotencia?
+- ¿Qué respuesta produce una repetición con la misma clave y el mismo contenido?
+- ¿Qué debe ocurrir si se reutiliza la misma clave con contenido distinto?
+
+### Respuesta exitosa
+
+- ¿Qué condición produce `200 OK`?
+- ¿Qué condición produce `201 Created`?
+- Si se crea un recurso, ¿qué URI se devuelve en `Location`?
+- ¿Qué condición produce `202 Accepted`?
+- Si el procesamiento es asíncrono, ¿qué recurso o estado permite observar su progreso?
+- ¿Qué condición produce `204 No Content`?
+- Si se utiliza `204`, ¿la respuesta carece de cuerpo?
+- ¿La respuesta devuelve la representación actual del recurso, un identificador, el resultado de la operación o ningún contenido?
+- ¿Qué media type y esquema tiene el cuerpo cuando existe?
+- ¿La respuesta devuelve una versión o `ETag` del estado resultante?
+
+### Atomicidad y efectos
+
+- ¿La mutación es atómica?
+- ¿Puede existir éxito parcial?
+- Si existe éxito parcial, ¿qué unidades pueden fallar de forma independiente?
+- ¿Cómo se representa el resultado parcial?
+- ¿Qué efectos secundarios forman parte del contrato?
+- ¿Qué debe revertirse cuando un efecto secundario falla?
+
+### CORS
+
+- ¿La API permite solicitudes cross-origin desde navegador?
+- ¿Qué orígenes se permiten?
+- ¿Qué métodos se permiten?
+- ¿Qué encabezados de solicitud se permiten?
+- ¿Se permiten credenciales cross-origin?
+- Cuando se permiten credenciales, ¿qué origen explícito se devuelve en lugar de un comodín?
+- ¿Qué encabezados de respuesta deben exponerse?
+- ¿La duración de caché del preflight forma parte de la política?
+- ¿La respuesta debe variar por `Origin` cuando el origen permitido cambia dinámicamente?
+
+### Errores
+
+- ¿Qué condición produce `400 Bad Request`?
+- ¿Qué condición produce `401 Unauthorized`?
+- ¿Qué condición produce `403 Forbidden`?
+- ¿Qué condición produce `404 Not Found`?
+- ¿Qué condición produce `405 Method Not Allowed`?
+- Cuando se utiliza `405`, ¿la respuesta indica los métodos permitidos?
+- ¿Qué condición produce `406 Not Acceptable`?
+- ¿Qué condición produce `409 Conflict`?
+- ¿Qué condición produce `412 Precondition Failed`?
+- ¿Qué condición produce `415 Unsupported Media Type`?
+- ¿La API utiliza `422 Unprocessable Content` para contenido sintácticamente procesable pero semánticamente inválido?
+- Si utiliza `422`, ¿qué condición exacta lo distingue de `400` y `409`?
+- ¿Qué condición produce `429 Too Many Requests`?
+- ¿Qué condición produce `500 Internal Server Error`?
+- ¿Qué condición produce `503 Service Unavailable`?
+- ¿Qué formato uniforme representa los errores?
+- ¿Qué campos estables identifican tipo, código, detalle y ubicación del error?
+- ¿Los errores de validación identifican campo o ruta y un código verificable?
+- ¿Las respuestas que admiten reintento indican cuándo puede realizarse?
+
+### Redirección
+
+- Si la operación forma parte de navegación web y termina con una redirección, ¿a qué URI redirige?
+- ¿Qué código de redirección se utiliza?
+- ¿La redirección debe conservar o cambiar el método de la solicitud posterior?

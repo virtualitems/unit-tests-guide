@@ -1,52 +1,57 @@
+---
+type: ui
+name: image
+---
+
 # Imagen
 
-- ¿En qué formato debe estar la imagen?
-- ¿Qué tamaño debe tener la imagen?
-- ¿Qué resolución debe tener la imagen?
-- ¿Se debe proporcionar texto alternativo a la imagen?
-- ¿Cómo se manejan las imágenes que no se pueden cargar?
-- ¿La imagen debe tener un caption?
-- ¿Qué interacciones se permiten con la imagen?
-    - ¿La imagen debe tener un area clickable? <!-- area -->
-    - ¿Se debe permitir hacer zoom en la imagen?
-    - ¿Se debe permitir desplazar la imagen?
+## Definición
 
-## Estados
+Una imagen representa contenido visual informativo, decorativo, funcional o complejo dentro de una interfaz.
 
-- ¿El elemento puede estar deshabilitado?
-    - ¿En qué condiciones se debe deshabilitar el elemento?
-    - ¿En qué condiciones se debe habilitar el elemento?
+## Criterios
 
-- ¿El elemento puede estar oculto?
-    - ¿En qué condiciones se debe ocultar el elemento?
-    - ¿En qué condiciones se debe mostrar el elemento?
+### Función
 
-- ¿El elemento puede estar activo?
-    - ¿En qué condiciones se debe activar el elemento?
-    - ¿En qué condiciones se debe desactivar el elemento?
-    - ¿Cómo debe destacarse el elemento activo?
+- ¿La imagen es informativa?
+- ¿La imagen es decorativa?
+- ¿La imagen funciona como control o enlace?
+- ¿La imagen comunica información compleja como un gráfico, diagrama o mapa?
 
-- ¿El elemento puede estar en estado de carga?
-    - ¿Cómo debe destacarse el elemento en estado de carga?
+### Alternativa textual
 
-- ¿El elemento puede estar en estado de éxito o error?
-    - ¿Cómo debe destacarse el elemento en estado de éxito?
-    - ¿Cómo debe destacarse el elemento en estado de error?
+- Si es informativa, ¿qué texto alternativo comunica la información relevante en su contexto?
+- Si es decorativa, ¿cómo se excluye de la experiencia del lector de pantalla?
+- Si es funcional, ¿qué nombre accesible describe la acción o destino?
+- Si es compleja, ¿qué descripción extensa o equivalente textual comunica la misma información?
+- Si contiene texto esencial, ¿existe un equivalente textual accesible?
 
-## No script
+### Fuente y carga
 
-- ¿Cómo debe comportarse el elemento si JavaScript está deshabilitado?
+- ¿De qué origen proviene la imagen?
+- ¿Existen variantes por resolución o formato?
+- ¿Cómo se selecciona la variante adecuada?
+- ¿Cuándo se carga de forma diferida?
+- ¿Cuándo debe cargarse con prioridad?
+- ¿Qué contenido alternativo se muestra cuando la carga falla?
 
-## Enlaces
+### Dimensiones y recorte
 
-- ¿La imagen debe tener un enlace?
-    - ¿A qué ruta debe apuntar el enlace?
-    - ¿El enlace debe abrirse en una nueva ventana?
+- ¿Cuál es la relación de aspecto esperada?
+- ¿Qué ocurre cuando la fuente tiene una relación de aspecto diferente?
+- ¿La imagen se recorta, se contiene o se deforma?
+- Si se recorta, ¿qué punto focal debe preservarse?
+- ¿Se conocen dimensiones intrínsecas para reservar el espacio antes de cargar?
 
-## Responsive
+### Animación e interacción
 
-- ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla md (768px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla lg (1024px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla xl (1280px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla 2xl (1536px)?
+- ¿Se permiten imágenes animadas?
+- Si existe animación prolongada, ¿puede detenerse o pausarse cuando corresponde?
+- Si la imagen tiene áreas interactivas, ¿cada área tiene un nombre y destino definidos?
+- Si permite zoom o desplazamiento, ¿las mismas operaciones están disponibles mediante teclado?
+
+### Adaptación
+
+- ¿Qué debe ocurrir con la imagen al reducirse el espacio disponible?
+- ¿La imagen puede desbordar su contenedor?
+- ¿Qué parte de la imagen debe permanecer visible en cada rango de tamaño?

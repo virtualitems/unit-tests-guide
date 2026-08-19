@@ -1,87 +1,54 @@
+---
+type: ui
+name: menu
+---
+
 # Menú
 
-- ¿Qué tipo de menú debe implementarse?
-  - Menú horizontal
-  - Menú vertical
-  - Menú contextual
-  - Menú desplegable (dropdown)
-  - Menú de hamburguesa
-  - Menú en acordeón
+## Definición
 
-- ¿Cuál debe ser la estructura del menú?
-  - ¿El menú debe tener subniveles?
-    - ¿Cuántos niveles de anidamiento debe tener?
-  - ¿El menú debe tener separadores?
-  - ¿El menú debe tener agrupaciones?
+Un menú presenta un conjunto de opciones de navegación o acciones. Su patrón de interacción depende de si representa navegación de sitio o un widget de aplicación.
 
-## Elementos del menú
+## Criterios
 
-- ¿Qué elementos debe contener el menú?
-  - ¿El elemento debe ser un enlace?
-  - ¿El elemento debe ser un botón?
-  - ¿El elemento debe tener un texto?
-  - ¿El elemento debe tener un icono?
-    - ¿Qué icono debe mostrar?
+### Tipo
 
-## Comportamiento
+- ¿El componente representa navegación de sitio?
+- ¿El componente representa un menú de acciones de aplicación?
+- ¿Qué nombre accesible identifica la navegación o menú?
 
-- ¿Cómo debe activarse el menú?
-  - ¿El menú debe abrirse al hacer click?
-  - ¿El menú debe abrirse al pasar el cursor? <!-- hover -->
-  - ¿El menú debe abrirse con el foco del teclado?
-  - ¿El menú debe cerrarse al hacer click fuera del menú?
-  - ¿El menú debe cerrarse al perder el foco?
+### Activación
 
-- ¿El menú debe permitir navegación por teclado?
-  - ¿Qué teclas deben navegar entre elementos?
+- ¿El menú está siempre visible o se abre mediante un control?
+- ¿Qué nombre tiene el control que lo abre?
+- ¿Cómo comunica el control si el menú está expandido o contraído?
+- ¿Cómo se relaciona programáticamente el control con el contenido que abre?
+- ¿El menú puede abrirse mediante hover?
+- Si se abre mediante hover, ¿existe también un mecanismo mediante teclado y puntero explícito?
+- ¿Qué comportamiento tiene en dispositivos táctiles?
 
-- ¿El menú debe soportar búsqueda por texto?
+### Foco y teclado
 
-## Posicionamiento
+- ¿Qué elemento recibe foco al abrir el menú?
+- ¿Qué elemento recibe foco al cerrar?
+- ¿Cerrar con Escape devuelve el foco al control activador?
+- ¿Qué teclas permiten recorrer las opciones según el patrón utilizado?
+- ¿Se admiten Home y End cuando el patrón lo requiere?
+- ¿Se admite búsqueda por escritura cuando el patrón lo requiere?
+- ¿Cómo se navegan submenús mediante teclado?
 
-- ¿Dónde debe ubicarse el menú en la página?
-  - ¿El menú debe estar fijo en la parte superior?
-  - ¿El menú debe estar fijo en la parte lateral?
-  - ¿El menú debe seguir el scroll de la página?
+### Cierre y selección
 
-- ¿En qué dirección deben mostrarse los submenús?
+- ¿El menú se cierra después de seleccionar una opción?
+- ¿Se cierra al presionar Escape?
+- ¿Se cierra al interactuar fuera de su contexto?
+- ¿Qué ocurre al abrir un menú mientras otro está abierto?
+- ¿Qué diferencia existe entre una opción deshabilitada, seleccionada y correspondiente a la ubicación actual?
 
-## Estados
+### Posicionamiento
 
-- ¿Algún elemento puede estar deshabilitado?
-    - ¿En qué condiciones se debe deshabilitar el elemento?
-    - ¿En qué condiciones se debe habilitar el elemento?
-
-- ¿Algún elemento puede estar oculto?
-    - ¿En qué condiciones se debe ocultar el elemento?
-    - ¿En qué condiciones se debe mostrar el elemento?
-
-- ¿Algún elemento puede estar activo?
-    - ¿En qué condiciones se debe activar el elemento?
-    - ¿En qué condiciones se debe desactivar el elemento?
-    - ¿Cómo debe destacarse el elemento activo?
-
-- ¿Algún elemento puede estar en estado de carga?
-    - ¿Cómo debe destacarse el elemento en estado de carga?
-
-- ¿Algún elemento puede estar en estado de éxito o error?
-    - ¿Cómo debe destacarse el elemento en estado de éxito?
-    - ¿Cómo debe destacarse el elemento en estado de error?
-
-## No script
-
-- ¿Cómo debe comportarse el elemento si JavaScript está deshabilitado?
-
-## Enlaces
-
-- ¿Algún elemento del menú debe tener un enlace?
-  - ¿A qué ruta debe apuntar el enlace?
-  - ¿El enlace debe abrirse en una nueva ventana?
-
-## Responsive
-
-- ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla md (768px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla lg (1024px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla xl (1280px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla 2xl (1536px)?
+- ¿Dónde se muestra el menú respecto de su activador?
+- ¿Cómo se reposiciona cuando no hay espacio suficiente en el viewport?
+- ¿Qué ocurre cuando el menú es más alto que el viewport?
+- ¿Puede desplazarse internamente?
+- ¿Qué ocurre con el estado abierto y el foco cuando cambia la distribución de la interfaz?

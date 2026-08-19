@@ -14,10 +14,26 @@ Un booleano es un valor que expresa una condición mediante dos estados mutuamen
 ### Presencia
 
 - ¿Puede estar ausente?
-- ¿Puede tener un valor predeterminado?
-    - ¿Cuál es el valor predeterminado?
+- ¿Puede ser `null`?
+- ¿Ausencia, `null` y `false` representan estados distintos?
+- ¿Existe un valor predeterminado?
+- ¿Cuál es el valor predeterminado?
 
-### Estados
+### Significado
 
-- ¿Qué condición representa el valor false?
-- ¿Qué condición representa el valor true?
+- ¿Qué condición de dominio representa `true`?
+- ¿Qué condición de dominio representa `false`?
+- ¿El valor representa un hecho, una preferencia, un estado o una decisión?
+
+### Representación
+
+- ¿Qué representaciones externas se aceptan como `true`?
+- ¿Qué representaciones externas se aceptan como `false`?
+- ¿Se permite convertir valores de otros tipos a booleano?
+- ¿Qué debe ocurrir ante una representación ambigua o no reconocida?
+- ¿Cuál es la representación canónica al serializar el valor?
+
+### Transiciones
+
+- ¿Cambiar de `false` a `true` tiene condiciones o efectos propios?
+- ¿Cambiar de `true` a `false` tiene condiciones o efectos propios?

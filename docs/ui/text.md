@@ -1,96 +1,63 @@
-# Textos
+---
+type: ui
+name: text
+---
 
-## Tipos
+# Texto de interfaz
 
-- ¿Qué tipo de texto debe utilizarse?
-    - Abreviación <!-- abbr -->
-    - Bloque de cita <!-- blockquote -->
-    - Cita <!-- cite -->
-    - Código <!-- code -->
-    - Datos <!-- data -->
-    - Definición <!-- dfn -->
-    - Destacado <!-- mark -->
-    - Detalles <!-- details -->
-    - Eliminación <!-- del -->
-    - Encabezado <!-- h1, h2, h3, h4, h5, h6 -->
-    - Enfatizado <!-- em -->
-    - Entrada de teclado <!-- kbd -->
-    - Fechas y horas <!-- time -->
-    - Genérico <!-- span -->
-    - Importante <!-- strong -->
-    - Información de contacto <!-- address -->
-    - Inserción <!-- ins -->
-    - Leyenda de campos agrupados <!-- legend -->
-    - Leyenda de figura <!-- figcaption -->
-    - Leyenda de tabla <!-- caption -->
-    - Párrafo <!-- p -->
-    - Pequeño <!-- small -->
-    - Preformateado <!-- pre -->
-    - Resumen <!-- summary -->
-    - Salida de muestra <!-- samp -->
-    - Subíndice <!-- sub -->
-    - Superíndice <!-- sup -->
-    - Variable <!-- var -->
+## Definición
 
-## Formatos
+Un texto de interfaz comunica contenido mediante una estructura semántica y una presentación que debe conservar su significado cuando cambia el contexto visual.
 
-- ¿El texto debe estar en cursiva? <!-- i -->
-- ¿El texto debe estar en negrita? <!-- b -->
-- ¿El texto debe estar subrayado? <!-- u -->
-- ¿El texto debe estar tachado? <!-- s -->
-- ¿El texto debe tener un aislamiento bidireccional? <!-- bdi -->
-- ¿El texto debe tener una anulación bidireccional? <!-- bdo -->
-- ¿El texto debe ser un contenedor de anotaciones ruby? <!-- ruby -->
-- ¿El texto debe ser un paréntesis ruby? <!-- rt -->
-- ¿El texto debe ser una anotación ruby? <!-- rb -->
+## Criterios
 
-## Espacios
+### Semántica
 
-- ¿El texto puede tener espacios en blanco?
-    - ¿El texto puede tener espacios en blanco continuos?
+- ¿Qué función cumple el texto dentro del documento?
+- ¿Es un encabezado, párrafo, énfasis, texto importante, cita, código, contenido preformateado, dirección o valor temporal?
+- ¿La jerarquía de encabezados representa la estructura real del contenido?
+- ¿El significado depende de una apariencia visual que debería expresarse mediante semántica?
 
-- ¿El texto puede tener saltos de línea? <!-- br -->
-    - ¿El texto puede tener saltos de línea continuos?
-    - ¿El texto debe tener word breaks? <!-- wbr -->
+### Idioma y dirección
 
-- ¿El texto puede tener separadores horizontales? <!-- hr -->
+- ¿Cuál es el idioma del texto?
+- ¿Existen fragmentos en un idioma diferente?
+- ¿Cómo se identifica cada cambio de idioma significativo?
+- ¿La dirección del texto requiere tratamiento bidireccional específico?
 
-## Estados
+### Espacios y saltos
 
-- ¿El elemento puede estar deshabilitado?
-    - ¿En qué condiciones se debe deshabilitar el elemento?
-    - ¿En qué condiciones se debe habilitar el elemento?
+- ¿Los espacios consecutivos deben preservarse o colapsarse?
+- ¿Los saltos de línea deben preservarse?
+- ¿El contenido preformateado debe envolver líneas o permitir desplazamiento horizontal?
+- ¿Existen puntos donde puede insertarse un salto de palabra sin alterar el contenido?
 
-- ¿El elemento puede estar oculto?
-    - ¿En qué condiciones se debe ocultar el elemento?
-    - ¿En qué condiciones se debe mostrar el elemento?
+### Presentación del contenido
 
-- ¿El elemento puede estar activo?
-    - ¿En qué condiciones se debe activar el elemento?
-    - ¿En qué condiciones se debe desactivar el elemento?
-    - ¿Cómo debe destacarse el elemento activo?
+- ¿El texto puede truncarse?
+- ¿Cuál es el límite de líneas o caracteres visibles cuando se trunca?
+- ¿Cómo puede accederse al contenido completo cuando existe truncamiento?
+- ¿Algún significado depende exclusivamente del color, tamaño, posición o estilo tipográfico?
+- Si depende de una diferencia visual, ¿qué indicador adicional comunica el mismo significado?
 
-- ¿El elemento puede estar en estado de carga?
-    - ¿Cómo debe destacarse el elemento en estado de carga?
+### Enlaces
 
-- ¿El elemento puede estar en estado de éxito o error?
-    - ¿Cómo debe destacarse el elemento en estado de éxito?
-    - ¿Cómo debe destacarse el elemento en estado de error?
+- ¿Alguna parte del texto funciona como enlace?
+- ¿Cuál es el destino de cada enlace?
+- ¿El propósito del enlace puede determinarse mediante su texto y contexto accesible?
+- ¿El enlace abre un nuevo contexto o ventana?
+- Si abre un nuevo contexto, ¿se comunica ese comportamiento?
 
-## No script
+### Contenido dinámico
 
-- ¿Cómo debe comportarse el elemento si JavaScript está deshabilitado?
+- ¿El texto puede cambiar como resultado de una acción o evento?
+- Si comunica un estado o error, ¿cómo se anuncia el cambio sin mover el foco innecesariamente?
+- ¿Existen reglas de localización?
+- ¿Existen reglas de pluralización?
+- ¿Existen valores interpolados en el contenido?
+- ¿Qué debe ocurrir cuando falta un valor de interpolación?
 
-## Enlaces
+### Adaptación
 
-- ¿El texto debe tener un enlace?
-    - ¿A qué ruta debe apuntar el enlace?
-    - ¿El enlace debe abrirse en una nueva ventana?
-
-## Responsive
-
-- ¿Cómo debe ajustarse visualmente en una pantalla sm (640px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla md (768px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla lg (1024px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla xl (1280px)?
-- ¿Cómo debe ajustarse visualmente en una pantalla 2xl (1536px)?
+- ¿El texto permanece legible cuando cambia el tamaño de fuente, espaciado o zoom?
+- ¿Qué comportamiento debe tener al reducirse el espacio disponible?
